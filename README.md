@@ -2,8 +2,8 @@
 
 ## 运行环境&部署
 本机环境需要安装
-1. `node.js`
-2. `TypeScript`
+1. 安装`node.js`
+2. 执行`npm install -g typescript`
 ## 启动方式
 
 必须先配置好配置文件，在项目路径下新建一个文件`.env`示例文件如下：
