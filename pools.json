@@ -1,0 +1,3648 @@
+[
+  {
+    "address": "0x1236ad7cce4e8d432221c1ff8084fc062614c4834927d6086ed2dc79c4dc504c",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 20
+    },
+    "day": {
+      "apr": {
+        "feeApr": "92.8258808",
+        "rewardApr": "0",
+        "total": "92.8258808"
+      },
+      "fee": "75.721016740761989538",
+      "priceMax": "0.022045057",
+      "priceMin": "0.020209502",
+      "volume": "75720.821325850072763947"
+    },
+    "feeRate": "0.1000",
+    "month": {
+      "apr": {
+        "feeApr": "5.226964",
+        "rewardApr": "0",
+        "total": "5.226964"
+      },
+      "fee": "129.690598098654987825",
+      "priceMax": "0.022108645",
+      "priceMin": "0.020209502",
+      "volume": "129690.244301442368348864"
+    },
+    "price": "0.020864798",
+    "symbol": "stSUI/SOL",
+    "tokenA": {
+      "amount": "4407600129931",
+      "info": {
+        "address": "0xd1b72982e40348d069bb1ff701e634c117bb5f741f44dff91e472d3b01461e55::stsui::STSUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "stSUI",
+        "symbol": "stSUI"
+      }
+    },
+    "tokenB": {
+      "amount": "4664169994",
+      "info": {
+        "address": "0xb7844e289a8410e50fb3ca48d69eb9cf29e27d223ef90353fe1bd8e27ff8f3f8::coin::COIN",
+        "decimals": 8,
+        "logoURI": "https://randjhppd5rrnyp52hplsyqgbc5hox5veu7jsnfo4ryigl5g7mdq.arweave.net/iBo0ne8fYxbh_dHeuWIGCLp3X7UlPpk0ruRwgy-m-wc",
+        "name": "Wrapped SOL (Portal from Solana)",
+        "symbol": "WSOL"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "29774.208277367400484871",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "22.6501777",
+        "rewardApr": "0",
+        "total": "22.6501777"
+      },
+      "fee": "129.690598098654987825",
+      "priceMax": "0.022108645",
+      "priceMin": "0.020209502",
+      "volume": "129690.244301442368348864"
+    }
+  },
+  {
+    "address": "0x38e058d059d2bd6d00d2c85a7b0656a232cada12441fb406cd3ab29c6822b550",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 20
+    },
+    "day": {
+      "apr": {
+        "feeApr": "92.0522931",
+        "rewardApr": "0",
+        "total": "92.0522931"
+      },
+      "fee": "46.729735483494186818",
+      "priceMax": "0.001212992",
+      "priceMin": "0.001153601",
+      "volume": "46725.703446814366096987"
+    },
+    "feeRate": "0.1000",
+    "month": {
+      "apr": {
+        "feeApr": "4.4184294",
+        "rewardApr": "0",
+        "total": "4.4184294"
+      },
+      "fee": "68.224169433677531075",
+      "priceMax": "0.001217597",
+      "priceMin": "0.001148878",
+      "volume": "68218.134217311697090701"
+    },
+    "price": "0.001172581",
+    "symbol": "stSUI/ETH",
+    "tokenA": {
+      "amount": "2697070368549",
+      "info": {
+        "address": "0xd1b72982e40348d069bb1ff701e634c117bb5f741f44dff91e472d3b01461e55::stsui::STSUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "stSUI",
+        "symbol": "stSUI"
+      }
+    },
+    "tokenB": {
+      "amount": "168609699",
+      "info": {
+        "address": "0xd0e89b2af5e4910726fbcd8b8dd37bb79b29e5f83f7491bca830e94f7f226d29::eth::ETH",
+        "decimals": 8,
+        "logoURI": "",
+        "name": "ETH",
+        "symbol": "ETH"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "18528.982675490640011289",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "19.1465277",
+        "rewardApr": "0",
+        "total": "19.1465277"
+      },
+      "fee": "68.224169433677531075",
+      "priceMax": "0.001217597",
+      "priceMin": "0.001148878",
+      "volume": "68218.134217311697090701"
+    }
+  },
+  {
+    "address": "0x151d6959cb2a6d1a5b6cfec6d1eae690af0318e46e5fb3ec45dd4e3b67eebeda",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 10
+    },
+    "day": {
+      "apr": {
+        "feeApr": "200.2368346",
+        "rewardApr": "0",
+        "total": "200.2368346"
+      },
+      "fee": "1904.364457166096643955",
+      "priceMax": "4.861102556",
+      "priceMin": "4.355578682",
+      "volume": "3808727.228969223424120357"
+    },
+    "feeRate": "0.0500",
+    "month": {
+      "apr": {
+        "feeApr": "8.7346362",
+        "rewardApr": "0",
+        "total": "8.7346362"
+      },
+      "fee": "2526.75154024261680367",
+      "priceMax": "4.861102556",
+      "priceMin": "4.355578682",
+      "volume": "5053499.964686201534454401"
+    },
+    "price": "4.494063168",
+    "symbol": "stSUI/USDC",
+    "tokenA": {
+      "amount": "77374737117461",
+      "info": {
+        "address": "0xd1b72982e40348d069bb1ff701e634c117bb5f741f44dff91e472d3b01461e55::stsui::STSUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "stSUI",
+        "symbol": "stSUI"
+      }
+    },
+    "tokenB": {
+      "amount": "743451728",
+      "info": {
+        "address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "decimals": 6,
+        "logoURI": "https://sigvc4wfhz5h7om4dg4y47mhiwnnzd77gatnd7hmqjadm7lt5ima.arweave.net/kg1RcsU-en-5nBm5jn2HRZrcj_8wJtH87IJANn1z6hg",
+        "name": "USDC",
+        "symbol": "USDC"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "347135.444966655645168701",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "37.8500905",
+        "rewardApr": "0",
+        "total": "37.8500905"
+      },
+      "fee": "2526.75154024261680367",
+      "priceMax": "4.861102556",
+      "priceMin": "4.355578682",
+      "volume": "5053499.964686201534454401"
+    }
+  },
+  {
+    "address": "0x73549e0918d10727e324ebeed11ab81ab46f8fadb11078a0641f117d9097b725",
+    "config": {
+      "defaultRange": "1week",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 1
+    },
+    "day": {
+      "apr": {
+        "feeApr": "1.1828426",
+        "rewardApr": "10.1641474",
+        "total": "11.34699"
+      },
+      "fee": "169.065201211017117691",
+      "priceMax": "1.000187235",
+      "priceMin": "1.000077576",
+      "volume": "1690651.941628272607549909"
+    },
+    "feeRate": "0.0100",
+    "month": {
+      "apr": {
+        "feeApr": "0.071498100",
+        "rewardApr": "10.0249125",
+        "total": "10.0964106"
+      },
+      "fee": "310.837729563019216638",
+      "priceMax": "1.003649535",
+      "priceMin": "1.0000337",
+      "volume": "3108377.151699252201318028"
+    },
+    "price": "1.000130063",
+    "rewards": [
+      {
+        "dailyRewards": "3217.1581728",
+        "dailyRewardsUsd": "1452.7745032226602176",
+        "endTime": "2025-01-01T13:00:00Z",
+        "perSecondRewards": "0.037235627",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "50000"
+      }
+    ],
+    "symbol": "stSUI/SUI",
+    "tokenA": {
+      "amount": "1087932299736166",
+      "info": {
+        "address": "0xd1b72982e40348d069bb1ff701e634c117bb5f741f44dff91e472d3b01461e55::stsui::STSUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "stSUI",
+        "symbol": "stSUI"
+      }
+    },
+    "tokenB": {
+      "amount": "77057912339081",
+      "info": {
+        "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "SUI",
+        "symbol": "SUI"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "5216991.364013306387389201",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "0.309825300",
+        "rewardApr": "10.1363004",
+        "total": "10.4461258"
+      },
+      "fee": "310.837729563019216638",
+      "priceMax": "1.003649535",
+      "priceMin": "1.0000337",
+      "volume": "3108377.151699252201318028"
+    }
+  },
+  {
+    "address": "0xd4051b5dc76ca354e48813268aa79de38b274878ef6a9d274066ae5a47f46cc6",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 50
+    },
+    "day": {
+      "apr": {
+        "feeApr": "31.7345065",
+        "rewardApr": "0",
+        "total": "31.7345065"
+      },
+      "fee": "175.197777562886136005",
+      "priceMax": "0.957405016",
+      "priceMin": "0.932238653",
+      "volume": "70079.110814264486158216"
+    },
+    "feeRate": "0.2500",
+    "month": {
+      "apr": {
+        "feeApr": "1.1839166",
+        "rewardApr": "0",
+        "total": "1.1839166"
+      },
+      "fee": "198.806052442377326632",
+      "priceMax": "0.957405016",
+      "priceMin": "0.920488001",
+      "volume": "79522.420649352311405896"
+    },
+    "price": "0.940042364",
+    "symbol": "ALPHA/stSUI",
+    "tokenA": {
+      "amount": "25237131583412",
+      "info": {
+        "address": "0xfe3afec26c59e874f3c1d60b8203cb3852d2bb2aa415df9548b8d688e6683f93::alpha::ALPHA",
+        "decimals": 9,
+        "logoURI": "https://7taj6jfau6n3dri7agspzfnva7qbj5sizz5xc3lb56nmxpsyoiba.arweave.net/_MCfJKCnm7HFHwGk_JW1B-AU9kjOe3FtYe-ay75YcgI",
+        "name": "ALPHA Token",
+        "symbol": "ALPHA"
+      }
+    },
+    "tokenB": {
+      "amount": "21269064803444",
+      "info": {
+        "address": "0xd1b72982e40348d069bb1ff701e634c117bb5f741f44dff91e472d3b01461e55::stsui::STSUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "stSUI",
+        "symbol": "stSUI"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "201506.800336713736226092",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "5.1303056",
+        "rewardApr": "0",
+        "total": "5.1303056"
+      },
+      "fee": "198.806052442377326632",
+      "priceMax": "0.957405016",
+      "priceMin": "0.920488001",
+      "volume": "79522.420649352311405896"
+    }
+  },
+  {
+    "address": "0x86bad2c1c85623d61bb8d326a509cef916d32f50f2c723dd919afd4b1287de4f",
+    "config": {
+      "defaultRange": "1week",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 1
+    },
+    "day": {
+      "apr": {
+        "feeApr": "5.7321108",
+        "rewardApr": "42.7802564073",
+        "total": "48.5123672254"
+      },
+      "fee": "19.259137684820978",
+      "priceMax": "0.999155033",
+      "priceMin": "0.998054841",
+      "volume": "192590.012424343734243"
+    },
+    "feeRate": "0.0100",
+    "month": {
+      "apr": {
+        "feeApr": "0.222474800",
+        "rewardApr": "42.1942254976",
+        "total": "42.4167003118"
+      },
+      "fee": "22.736035105687781",
+      "priceMax": "0.999978672",
+      "priceMin": "0.998054841",
+      "volume": "227358.538831175405587"
+    },
+    "price": "0.998055132",
+    "rewards": [
+      {
+        "dailyRewards": "318.302352",
+        "dailyRewardsUsd": "143.736029272985184",
+        "endTime": "2025-01-01T13:00:00Z",
+        "perSecondRewards": "0.003684055",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "5000"
+      }
+    ],
+    "symbol": "FDUSD/USDC",
+    "tokenA": {
+      "amount": "112515012790",
+      "info": {
+        "address": "0xf16e6b723f242ec745dfd7634ad072c42d5c1d9ac9d62a39c381303eaa57693a::fdusd::FDUSD",
+        "decimals": 6,
+        "logoURI": "",
+        "name": "FDUSD",
+        "symbol": "FDUSD"
+      }
+    },
+    "tokenB": {
+      "amount": "10557137214",
+      "info": {
+        "address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "decimals": 6,
+        "logoURI": "https://sigvc4wfhz5h7om4dg4y47mhiwnnzd77gatnd7hmqjadm7lt5ima.arweave.net/kg1RcsU-en-5nBm5jn2HRZrcj_8wJtH87IJANn1z6hg",
+        "name": "USDC",
+        "symbol": "USDC"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "122635.194574459815338",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "0.964057500",
+        "rewardApr": "42.6630502254",
+        "total": "43.6271077536"
+      },
+      "fee": "22.736035105687781",
+      "priceMax": "0.999978672",
+      "priceMin": "0.998054841",
+      "volume": "227358.538831175405587"
+    }
+  },
+  {
+    "address": "0x4b8271fc4819078e44ee9a0506a824b77464789d57ace355d0562a4776c51840",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 100
+    },
+    "day": {
+      "apr": {
+        "feeApr": "372.7604509171",
+        "rewardApr": "597.3672384865",
+        "total": "970.1276894036"
+      },
+      "fee": "5899.619024674504642106",
+      "priceMax": "0.271720062",
+      "priceMin": "0.209488628",
+      "volume": "1179923.796666991973821574"
+    },
+    "feeRate": "0.5000",
+    "month": {
+      "apr": {
+        "feeApr": "18.6533729535",
+        "rewardApr": "589.1841256305",
+        "total": "607.837498584"
+      },
+      "fee": "8979.726947345760012278",
+      "priceMax": "0.271720062",
+      "priceMin": "0.125259469",
+      "volume": "1795945.37760700533528181"
+    },
+    "price": "0.236591623",
+    "rewards": [
+      {
+        "dailyRewards": "7161.8036544",
+        "dailyRewardsUsd": "3234.0609902757195648",
+        "endTime": "2025-01-01T13:00:00Z",
+        "perSecondRewards": "0.082891246",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "112500"
+      },
+      {
+        "dailyRewards": "58321.6416",
+        "dailyRewardsUsd": "6220.373127455952",
+        "endTime": "2025-01-01T13:00:00Z",
+        "perSecondRewards": "0.675019",
+        "token": {
+          "address": "deeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP",
+          "decimals": 6,
+          "logoURI": "https://oyflsj63aqulztiwsfy3cg4oly6m34pyw2uirqpbfz2rllr6dzoa.arweave.net/dgq5J9sEKLzNFpFxsRuOXjzN8fi2qIjB4S51Fa4-Hlw",
+          "name": "DEEP",
+          "symbol": "DEEP"
+        },
+        "totalReward": "916136"
+      }
+    ],
+    "symbol": "DEEP/BLUE",
+    "tokenA": {
+      "amount": "1954069511496",
+      "info": {
+        "address": "0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP",
+        "decimals": 6,
+        "logoURI": "https://oyflsj63aqulztiwsfy3cg4oly6m34pyw2uirqpbfz2rllr6dzoa.arweave.net/dgq5J9sEKLzNFpFxsRuOXjzN8fi2qIjB4S51Fa4-Hlw",
+        "name": "DEEP",
+        "symbol": "DEEP"
+      }
+    },
+    "tokenB": {
+      "amount": "817735997293000",
+      "info": {
+        "address": "0xe1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "BLUE",
+        "symbol": "BLUE"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "577679.563029808843526",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "80.8312827985",
+        "rewardApr": "595.7306159153",
+        "total": "676.5618987138"
+      },
+      "fee": "8979.726947345760012278",
+      "priceMax": "0.271720062",
+      "priceMin": "0.125259469",
+      "volume": "1795945.37760700533528181"
+    }
+  },
+  {
+    "address": "0x61c17a34d8d04f2a18ce0a51434a6481a69c5a0a91405d7fd8bb1c0789c54497",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 200
+    },
+    "day": {
+      "apr": {
+        "feeApr": "30.1481384",
+        "rewardApr": "0",
+        "total": "30.1481384"
+      },
+      "fee": "78.821823768654005045",
+      "priceMax": "0.000362790",
+      "priceMin": "0.000323520",
+      "volume": "7882.18236370719929556"
+    },
+    "feeRate": "1",
+    "month": {
+      "apr": {
+        "feeApr": "8.5255155",
+        "rewardApr": "0",
+        "total": "8.5255155"
+      },
+      "fee": "677.98213323128807867",
+      "priceMax": "0.001554606",
+      "priceMin": "0.000274982",
+      "volume": "67798.213208280344425995"
+    },
+    "price": "0.000327768",
+    "symbol": "AAA/SUI",
+    "tokenA": {
+      "amount": "33195653724248",
+      "info": {
+        "address": "0xd976fda9a9786cda1a36dee360013d775a5e5f206f8e20f84fad3385e99eeb2d::aaa::AAA",
+        "decimals": 6,
+        "logoURI": "https://45hgkrkliypqc7rpknvnhhqvsdpk23m2sfphh3vcmqrukddd74la.arweave.net/505lRUtGHwF-L1Nq054VkN6tbZqRXnPuomQjRQxj_xY",
+        "name": "aaa cat",
+        "symbol": "AAA"
+      }
+    },
+    "tokenB": {
+      "amount": "10449839404895",
+      "info": {
+        "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "SUI",
+        "symbol": "SUI"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "95428.663709068050598525",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "36.9439008",
+        "rewardApr": "0",
+        "total": "36.9439008"
+      },
+      "fee": "677.98213323128807867",
+      "priceMax": "0.001554606",
+      "priceMin": "0.000274982",
+      "volume": "67798.213208280344425995"
+    }
+  },
+  {
+    "address": "0x361807584fd2122266424a58742336613ee979167c6a61f07a998fabbd49ae71",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 50
+    },
+    "day": {
+      "apr": {
+        "feeApr": "2.7949766",
+        "rewardApr": "0",
+        "total": "2.7949766"
+      },
+      "fee": "3.50955145856254986",
+      "priceMax": "0.012956102",
+      "priceMin": "0.012554760",
+      "volume": "1403.82054740960740493"
+    },
+    "feeRate": "0.2500",
+    "month": {
+      "apr": {
+        "feeApr": "1.6005172",
+        "rewardApr": "0",
+        "total": "1.6005172"
+      },
+      "fee": "61.128732534528183555",
+      "priceMax": "0.015101007",
+      "priceMin": "0.010979474",
+      "volume": "24451.492643251288860915"
+    },
+    "price": "0.012586500",
+    "symbol": "TYPUS/SUI",
+    "tokenA": {
+      "amount": "405784364885931",
+      "info": {
+        "address": "0xf82dc05634970553615eef6112a1ac4fb7bf10272bf6cbe0f80ef44a6c489385::typus::TYPUS",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "TYPUS",
+        "symbol": "TYPUS"
+      }
+    },
+    "tokenB": {
+      "amount": "5106621474459",
+      "info": {
+        "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "SUI",
+        "symbol": "SUI"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "45831.73403710927481037",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "6.9355745",
+        "rewardApr": "0",
+        "total": "6.9355745"
+      },
+      "fee": "61.128732534528183555",
+      "priceMax": "0.015101007",
+      "priceMin": "0.010979474",
+      "volume": "24451.492643251288860915"
+    }
+  },
+  {
+    "address": "0xe60df0b549b375ba6dc0aac17fe967d89d7935258600478abecbdf138776ed49",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 200
+    },
+    "day": {
+      "apr": {
+        "feeApr": "196.2001056",
+        "rewardApr": "0",
+        "total": "196.2001056"
+      },
+      "fee": "400.109528148429263346",
+      "priceMax": "0.545355807",
+      "priceMin": "0.418769056",
+      "volume": "40010.94799233757993525"
+    },
+    "feeRate": "1",
+    "month": {
+      "apr": {
+        "feeApr": "31.3704816",
+        "rewardApr": "0",
+        "total": "31.3704816"
+      },
+      "fee": "1945.863903981875454508",
+      "priceMax": "0.619404429",
+      "priceMin": "0.291973004",
+      "volume": "194586.330543434196274774"
+    },
+    "price": "0.450181499",
+    "symbol": "BLUE/AUSD",
+    "tokenA": {
+      "amount": "54701192089358",
+      "info": {
+        "address": "0xe1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "BLUE",
+        "symbol": "BLUE"
+      }
+    },
+    "tokenB": {
+      "amount": "49801433653",
+      "info": {
+        "address": "0x2053d08c1e2bd02791056171aab0fd12bd7cd7efad2ab8f6b9c8902f14df2ff2::ausd::AUSD",
+        "decimals": 6,
+        "logoURI": "https://qele7wvrqjkzonp2egfsagymxbgrewy7adtywuxng4tmpdaycfxa.arweave.net/gRZP2rGCVZc1-iGLIBsMuE0SWx8A54tS7Tcmx4wYEW4",
+        "name": "AUSD",
+        "symbol": "AUSD"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "74434.199340006799097636",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "135.9387538",
+        "rewardApr": "0",
+        "total": "135.9387538"
+      },
+      "fee": "1945.863903981875454508",
+      "priceMax": "0.619404429",
+      "priceMin": "0.291973004",
+      "volume": "194586.330543434196274774"
+    }
+  },
+  {
+    "address": "0x7612ba011847068207120362965a781b864537ae87ccf28aff6e3b46b57c921a",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 200
+    },
+    "day": {
+      "apr": {
+        "feeApr": "0.231373100",
+        "rewardApr": "0",
+        "total": "0.231373100"
+      },
+      "fee": "0.000006990344746",
+      "priceMax": "2.314419154",
+      "priceMin": "2.313737885",
+      "volume": "0.000553235855612"
+    },
+    "feeRate": "1",
+    "month": {
+      "apr": {
+        "feeApr": "11.978829",
+        "rewardApr": "0",
+        "total": "11.978829"
+      },
+      "fee": "0.011008079084849",
+      "priceMax": "2.314419154",
+      "priceMin": "1.3336",
+      "volume": "1.10025113435238"
+    },
+    "price": "2.314419154",
+    "symbol": "SEND/AUSD",
+    "tokenA": {
+      "amount": "897",
+      "info": {
+        "address": "0xb45fcfcc2cc07ce0702cc2d229621e046c906ef14d9b25e8e4d25f6e8763fef7::send::SEND",
+        "decimals": 6,
+        "logoURI": "",
+        "name": "SEND",
+        "symbol": "SEND"
+      }
+    },
+    "tokenB": {
+      "amount": "1101653",
+      "info": {
+        "address": "0x2053d08c1e2bd02791056171aab0fd12bd7cd7efad2ab8f6b9c8902f14df2ff2::ausd::AUSD",
+        "decimals": 6,
+        "logoURI": "https://qele7wvrqjkzonp2egfsagymxbgrewy7adtywuxng4tmpdaycfxa.arweave.net/gRZP2rGCVZc1-iGLIBsMuE0SWx8A54tS7Tcmx4wYEW4",
+        "name": "AUSD",
+        "symbol": "AUSD"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "1.102753438702391",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "51.9082591",
+        "rewardApr": "0",
+        "total": "51.9082591"
+      },
+      "fee": "0.011008079084849",
+      "priceMax": "2.314419154",
+      "priceMin": "1.3336",
+      "volume": "1.10025113435238"
+    }
+  },
+  {
+    "address": "0x3717c637003c4274f20cde8c4eeadbffa2bbf16d995a0fe0f7bf99c03cf52e61",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 200
+    },
+    "day": {
+      "apr": {
+        "feeApr": "177.4302586",
+        "rewardApr": "9.2473242",
+        "total": "186.6775829"
+      },
+      "fee": "7650.350613867656130702",
+      "priceMax": "0.551111905",
+      "priceMin": "0.419029296",
+      "volume": "765035.04732270478385852"
+    },
+    "feeRate": "1",
+    "month": {
+      "apr": {
+        "feeApr": "64.9671084",
+        "rewardApr": "9.1206485",
+        "total": "74.087757"
+      },
+      "fee": "85203.769674966496909558",
+      "priceMax": "0.847752879",
+      "priceMin": "0.137337226",
+      "volume": "8520376.613152692466035732"
+    },
+    "price": "0.449129708",
+    "rewards": [
+      {
+        "dailyRewards": "882.9659232",
+        "dailyRewardsUsd": "398.7215771001390144",
+        "endTime": "2024-12-25T13:00:00Z",
+        "perSecondRewards": "0.010219513",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "15000"
+      }
+    ],
+    "symbol": "BLUE/USDC",
+    "tokenA": {
+      "amount": "2688022063082562",
+      "info": {
+        "address": "0xe1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "BLUE",
+        "symbol": "BLUE"
+      }
+    },
+    "tokenB": {
+      "amount": "359915273986",
+      "info": {
+        "address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "decimals": 6,
+        "logoURI": "https://sigvc4wfhz5h7om4dg4y47mhiwnnzd77gatnd7hmqjadm7lt5ima.arweave.net/kg1RcsU-en-5nBm5jn2HRZrcj_8wJtH87IJANn1z6hg",
+        "name": "USDC",
+        "symbol": "USDC"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "1573789.045239052277353004",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "260.4621021",
+        "rewardApr": "9.221989",
+        "total": "269.6840911"
+      },
+      "fee": "78829.308267271041439694",
+      "priceMax": "0.847752879",
+      "priceMin": "0.249758544",
+      "volume": "7882930.54188982002779958"
+    }
+  },
+  {
+    "address": "0xd0d64d266b6a55e3972677f6cfd6854c50ae94e76750c56a3e7c3050d641a760",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 50
+    },
+    "day": {
+      "apr": {
+        "feeApr": "327.97008759",
+        "rewardApr": "173.09777799",
+        "total": "501.06786559"
+      },
+      "fee": "1855.508467522436123971",
+      "priceMax": "0.116419953",
+      "priceMin": "0.091351477",
+      "volume": "742203.38565272935235348"
+    },
+    "feeRate": "0.2500",
+    "month": {
+      "apr": {
+        "feeApr": "139.92061165",
+        "rewardApr": "170.72657556",
+        "total": "310.64718721"
+      },
+      "fee": "24078.089150065738309248",
+      "priceMax": "0.190954253",
+      "priceMin": "0.038071731",
+      "volume": "9631235.639445943504784202"
+    },
+    "price": "0.100535401",
+    "rewards": [
+      {
+        "dailyRewards": "2168.6746464",
+        "dailyRewardsUsd": "979.3100192314356288",
+        "endTime": "2024-12-18T13:00:00Z",
+        "perSecondRewards": "0.025100401",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "15000"
+      }
+    ],
+    "symbol": "BLUE/SUI",
+    "tokenA": {
+      "amount": "372113912930420",
+      "info": {
+        "address": "0xe1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "BLUE",
+        "symbol": "BLUE"
+      }
+    },
+    "tokenB": {
+      "amount": "8553546223580",
+      "info": {
+        "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "SUI",
+        "symbol": "SUI"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "206500.71950688196303374",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "570.11452712",
+        "rewardApr": "172.62353751",
+        "total": "742.73806464"
+      },
+      "fee": "22640.203856472570130281",
+      "priceMax": "0.190954253",
+      "priceMin": "0.055795627",
+      "volume": "9056081.525396703759635977"
+    }
+  },
+  {
+    "address": "0xde705d4f3ded922b729d9b923be08e1391dd4caeff8496326123934d0fb1c312",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 200
+    },
+    "day": {
+      "apr": {
+        "feeApr": "256.4290215",
+        "rewardApr": "168.9792029",
+        "total": "425.4082244"
+      },
+      "fee": "13935.849861051310967",
+      "priceMax": "0.116351744",
+      "priceMin": "0.091729944",
+      "volume": "1393584.986018874441752707"
+    },
+    "feeRate": "1",
+    "month": {
+      "apr": {
+        "feeApr": "241.8782886",
+        "rewardApr": "166.6644193",
+        "total": "408.5427079"
+      },
+      "fee": "399829.45885515013120676",
+      "priceMax": "1.236542357",
+      "priceMin": "0.037351733",
+      "volume": "39982945.882910415307786309"
+    },
+    "price": "0.100333831",
+    "rewards": [
+      {
+        "dailyRewards": "20336.3845344",
+        "dailyRewardsUsd": "9183.3162537963325248",
+        "endTime": "2025-01-15T13:00:00Z",
+        "perSecondRewards": "0.235374821",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "1000000"
+      }
+    ],
+    "symbol": "BLUE/SUI",
+    "tokenA": {
+      "amount": "3516749930503575",
+      "info": {
+        "address": "0xe1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "BLUE",
+        "symbol": "BLUE"
+      }
+    },
+    "tokenB": {
+      "amount": "87961999904220",
+      "info": {
+        "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "SUI",
+        "symbol": "SUI"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "1983623.05815741887230155",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "999.412339",
+        "rewardApr": "168.5162462",
+        "total": "1167.9285852"
+      },
+      "fee": "381241.800074601476035929",
+      "priceMax": "0.189497658",
+      "priceMin": "0.056215926",
+      "volume": "38124180.005212335830836703"
+    }
+  },
+  {
+    "address": "0xbd5b29a952040ccd47ce2822bddd4aba3affaae9d6ccdaf65aded5528e39b837",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 400
+    },
+    "day": {
+      "apr": {
+        "feeApr": "133.1355038",
+        "rewardApr": "95.8443620812",
+        "total": "228.979865961"
+      },
+      "fee": "3001.882373060840843",
+      "priceMax": "3.426817997",
+      "priceMin": "2.99205041",
+      "volume": "150094.097778041697224"
+    },
+    "feeRate": "2",
+    "month": {
+      "apr": {
+        "feeApr": "109.4465046",
+        "rewardApr": "94.5314256143",
+        "total": "203.9779303137"
+      },
+      "fee": "75060.819078817928503",
+      "priceMax": "3.905465677",
+      "priceMin": "1.681982757",
+      "volume": "3753040.619897491009514"
+    },
+    "price": "2.99205041",
+    "rewards": [
+      {
+        "dailyRewards": "4785.645888",
+        "dailyRewardsUsd": "2161.057664593408896",
+        "endTime": "2025-01-15T13:00:00Z",
+        "perSecondRewards": "0.055389420",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "250000"
+      }
+    ],
+    "symbol": "SEND/USDC",
+    "tokenA": {
+      "amount": "222796316448",
+      "info": {
+        "address": "0xb45fcfcc2cc07ce0702cc2d229621e046c906ef14d9b25e8e4d25f6e8763fef7::send::SEND",
+        "decimals": 6,
+        "logoURI": "",
+        "name": "SEND",
+        "symbol": "SEND"
+      }
+    },
+    "tokenB": {
+      "amount": "172219163788",
+      "info": {
+        "address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "decimals": 6,
+        "logoURI": "https://sigvc4wfhz5h7om4dg4y47mhiwnnzd77gatnd7hmqjadm7lt5ima.arweave.net/kg1RcsU-en-5nBm5jn2HRZrcj_8wJtH87IJANn1z6hg",
+        "name": "USDC",
+        "symbol": "USDC"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "822986.381721463161104",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "474.268187",
+        "rewardApr": "95.5817747878",
+        "total": "569.8499618184"
+      },
+      "fee": "75060.819078817928503",
+      "priceMax": "3.905465677",
+      "priceMin": "1.681982757",
+      "volume": "3753040.619897491009514"
+    }
+  },
+  {
+    "address": "0xadbc22814b6829028ba2d87248ff24523be9eca495f3788e8efd43720cee666c",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 200
+    },
+    "day": {
+      "apr": {
+        "feeApr": "0",
+        "rewardApr": "0",
+        "total": "0"
+      },
+      "fee": "0",
+      "priceMax": "1.880632573",
+      "priceMin": "1.880632573",
+      "volume": "0"
+    },
+    "feeRate": "1",
+    "month": {
+      "apr": {
+        "feeApr": "5.099723",
+        "rewardApr": "0",
+        "total": "5.099723"
+      },
+      "fee": "0.018389127964284",
+      "priceMax": "1.880632573",
+      "priceMin": "1.880632573",
+      "volume": "1.83877778080458"
+    },
+    "price": "1.880632573",
+    "symbol": "SEND/USDC",
+    "tokenA": {
+      "amount": "1",
+      "info": {
+        "address": "0xb45fcfcc2cc07ce0702cc2d229621e046c906ef14d9b25e8e4d25f6e8763fef7::send::SEND",
+        "decimals": 6,
+        "logoURI": "",
+        "name": "SEND",
+        "symbol": "SEND"
+      }
+    },
+    "tokenB": {
+      "amount": "4326585",
+      "info": {
+        "address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "decimals": 6,
+        "logoURI": "https://sigvc4wfhz5h7om4dg4y47mhiwnnzd77gatnd7hmqjadm7lt5ima.arweave.net/kg1RcsU-en-5nBm5jn2HRZrcj_8wJtH87IJANn1z6hg",
+        "name": "USDC",
+        "symbol": "USDC"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "4.327088645152301",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "22.0987997",
+        "rewardApr": "0",
+        "total": "22.0987997"
+      },
+      "fee": "0.018389127964284",
+      "priceMax": "1.880632573",
+      "priceMin": "1.880632573",
+      "volume": "1.83877778080458"
+    }
+  },
+  {
+    "address": "0xec31262cf40c128f559d5a800e26d00cdfa959d938008d8d1e0a6e0199352a38",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 100
+    },
+    "day": {
+      "apr": {
+        "feeApr": "0",
+        "rewardApr": "0",
+        "total": "0"
+      },
+      "fee": "0",
+      "priceMax": "9906.109999999",
+      "priceMin": "9906.109999999",
+      "volume": "0"
+    },
+    "feeRate": "0.5000",
+    "month": {
+      "apr": {
+        "feeApr": "0",
+        "rewardApr": "0",
+        "total": "0"
+      },
+      "fee": "0",
+      "priceMax": "9906.109999999",
+      "priceMin": "9906.109999999",
+      "volume": "0"
+    },
+    "price": "9906.109999999",
+    "symbol": "stBTC/vSUI",
+    "tokenA": {
+      "amount": "0",
+      "info": {
+        "address": "0x5f496ed5d9d045c5b788dc1bb85f54100f2ede11e46f6a232c29daada4c5bdb6::coin::COIN",
+        "decimals": 8,
+        "logoURI": "",
+        "name": "stBTC",
+        "symbol": "stBTC"
+      }
+    },
+    "tokenB": {
+      "amount": "9999990",
+      "info": {
+        "address": "0x549e8b69270defbfafd4f94e17ec44cdbdd99820b33bda2278dea3b9a32d3f55::cert::CERT",
+        "decimals": 9,
+        "logoURI": "https://archive.cetus.zone/assets/image/sui/vsui.png",
+        "name": "Volo Staked SUI",
+        "symbol": "vSUI"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "0.04658695971299370",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "0",
+        "rewardApr": "0",
+        "total": "0"
+      },
+      "fee": "0",
+      "priceMax": "9906.109999999",
+      "priceMin": "9906.109999999",
+      "volume": "0"
+    }
+  },
+  {
+    "address": "0xcea2e05cd6f0c2e34167696ffa8784e0d27d3461e3d12862f1ecf221626cf932",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 40
+    },
+    "day": {
+      "apr": {
+        "feeApr": "35.6100792",
+        "rewardApr": "0",
+        "total": "35.6100792"
+      },
+      "fee": "0.231470224427832150",
+      "priceMax": "43.834078105",
+      "priceMin": "40.768732855",
+      "volume": "115.73361995006825463"
+    },
+    "feeRate": "0.2000",
+    "month": {
+      "apr": {
+        "feeApr": "68.1333353",
+        "rewardApr": "0",
+        "total": "68.1333353"
+      },
+      "fee": "13.47080225187928587",
+      "priceMax": "59.974515859",
+      "priceMin": "40.768732855",
+      "volume": "6735.37496433867329025"
+    },
+    "price": "43.61294001",
+    "symbol": "vSUI/DEEP",
+    "tokenA": {
+      "amount": "46570412669",
+      "info": {
+        "address": "0x549e8b69270defbfafd4f94e17ec44cdbdd99820b33bda2278dea3b9a32d3f55::cert::CERT",
+        "decimals": 9,
+        "logoURI": "https://archive.cetus.zone/assets/image/sui/vsui.png",
+        "name": "Volo Staked SUI",
+        "symbol": "vSUI"
+      }
+    },
+    "tokenB": {
+      "amount": "190304819",
+      "info": {
+        "address": "0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP",
+        "decimals": 6,
+        "logoURI": "https://oyflsj63aqulztiwsfy3cg4oly6m34pyw2uirqpbfz2rllr6dzoa.arweave.net/dgq5J9sEKLzNFpFxsRuOXjzN8fi2qIjB4S51Fa4-Hlw",
+        "name": "DEEP",
+        "symbol": "DEEP"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "237.25482727085683647",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "260.9396322",
+        "rewardApr": "0",
+        "total": "260.9396322"
+      },
+      "fee": "11.9056129586068788",
+      "priceMax": "57.465554247",
+      "priceMin": "40.768732855",
+      "volume": "5952.78549078303533988"
+    }
+  },
+  {
+    "address": "0x8f3c373b2a66cfee321768695807e8d823c5a91af184ceaf9310bd12c304b981",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 40
+    },
+    "day": {
+      "apr": {
+        "feeApr": "190.1120413",
+        "rewardApr": "0",
+        "total": "190.1120413"
+      },
+      "fee": "152.9833287158693758",
+      "priceMax": "5.028185585",
+      "priceMin": "4.626117814",
+      "volume": "76491.61264071883122142"
+    },
+    "feeRate": "0.2000",
+    "month": {
+      "apr": {
+        "feeApr": "23.1310281",
+        "rewardApr": "0",
+        "total": "23.1310281"
+      },
+      "fee": "566.16241662177789437",
+      "priceMax": "5.120150769",
+      "priceMin": "3.599510974",
+      "volume": "283080.8688647290680346"
+    },
+    "price": "4.656060417",
+    "symbol": "vSUI/USDC",
+    "tokenA": {
+      "amount": "4951714478949",
+      "info": {
+        "address": "0x549e8b69270defbfafd4f94e17ec44cdbdd99820b33bda2278dea3b9a32d3f55::cert::CERT",
+        "decimals": 9,
+        "logoURI": "https://archive.cetus.zone/assets/image/sui/vsui.png",
+        "name": "Volo Staked SUI",
+        "symbol": "vSUI"
+      }
+    },
+    "tokenB": {
+      "amount": "6302297714",
+      "info": {
+        "address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "decimals": 6,
+        "logoURI": "https://sigvc4wfhz5h7om4dg4y47mhiwnnzd77gatnd7hmqjadm7lt5ima.arweave.net/kg1RcsU-en-5nBm5jn2HRZrcj_8wJtH87IJANn1z6hg",
+        "name": "USDC",
+        "symbol": "USDC"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "29371.58245417886468587",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "99.6032436",
+        "rewardApr": "0",
+        "total": "99.6032436"
+      },
+      "fee": "562.59709320647757951",
+      "priceMax": "5.120150769",
+      "priceMin": "4.518098195",
+      "volume": "281298.26108359905011936"
+    }
+  },
+  {
+    "address": "0xa0297d7780fa6431f7fd89174c6a65408719db6fad7ca77c2a8e7287071ba2be",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 10
+    },
+    "day": {
+      "apr": {
+        "feeApr": "95.7445093",
+        "rewardApr": "0",
+        "total": "95.7445093"
+      },
+      "fee": "42.18247973619003197",
+      "priceMax": "5.03301931",
+      "priceMin": "4.617617608",
+      "volume": "84364.20436307752874479"
+    },
+    "feeRate": "0.0500",
+    "month": {
+      "apr": {
+        "feeApr": "31.7945667",
+        "rewardApr": "0",
+        "total": "31.7945667"
+      },
+      "fee": "426.07176806055354077",
+      "priceMax": "5.120590268",
+      "priceMin": "3.594853566",
+      "volume": "852137.60146172932090267"
+    },
+    "price": "4.665156521",
+    "symbol": "vSUI/AUSD",
+    "tokenA": {
+      "amount": "2852628845365",
+      "info": {
+        "address": "0x549e8b69270defbfafd4f94e17ec44cdbdd99820b33bda2278dea3b9a32d3f55::cert::CERT",
+        "decimals": 9,
+        "logoURI": "https://archive.cetus.zone/assets/image/sui/vsui.png",
+        "name": "Volo Staked SUI",
+        "symbol": "vSUI"
+      }
+    },
+    "tokenB": {
+      "amount": "2795239206",
+      "info": {
+        "address": "0x2053d08c1e2bd02791056171aab0fd12bd7cd7efad2ab8f6b9c8902f14df2ff2::ausd::AUSD",
+        "decimals": 6,
+        "logoURI": "https://qele7wvrqjkzonp2egfsagymxbgrewy7adtywuxng4tmpdaycfxa.arweave.net/gRZP2rGCVZc1-iGLIBsMuE0SWx8A54tS7Tcmx4wYEW4",
+        "name": "AUSD",
+        "symbol": "AUSD"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "16080.92747012599974795",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "72.3129629",
+        "rewardApr": "0",
+        "total": "72.3129629"
+      },
+      "fee": "223.6268293848473848",
+      "priceMax": "5.120590268",
+      "priceMin": "4.333044307",
+      "volume": "447249.42732981313364039"
+    }
+  },
+  {
+    "address": "0x6f330545a6e1dc13a65342209f6ee686641ef942cced77d1091b8b484e27a0d9",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 10
+    },
+    "day": {
+      "apr": {
+        "feeApr": "12.8052302",
+        "rewardApr": "0",
+        "total": "12.8052302"
+      },
+      "fee": "0.020442422508683010",
+      "priceMax": "4.95719199",
+      "priceMin": "4.62870955",
+      "volume": "40.884607270470980034"
+    },
+    "feeRate": "0.0500",
+    "month": {
+      "apr": {
+        "feeApr": "6.1860234",
+        "rewardApr": "0",
+        "total": "6.1860234"
+      },
+      "fee": "0.300378017822554278",
+      "priceMax": "4.967219039",
+      "priceMin": "3.598148301",
+      "volume": "600.75387070747465572"
+    },
+    "price": "4.635825958",
+    "symbol": "vSUI/BUCK",
+    "tokenA": {
+      "amount": "2016495722",
+      "info": {
+        "address": "0x549e8b69270defbfafd4f94e17ec44cdbdd99820b33bda2278dea3b9a32d3f55::cert::CERT",
+        "decimals": 9,
+        "logoURI": "https://archive.cetus.zone/assets/image/sui/vsui.png",
+        "name": "Volo Staked SUI",
+        "symbol": "vSUI"
+      }
+    },
+    "tokenB": {
+      "amount": "48955324389",
+      "info": {
+        "address": "0xce7ff77a83ea0cb6fd39bd8748e2ec89a3f41e8efdc3f4eb123e0ca37b184db2::buck::BUCK",
+        "decimals": 9,
+        "logoURI": "https://archive.cetus.zone/assets/image/sui/buck.png",
+        "name": "Bucket USD",
+        "symbol": "BUCK"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "58.269035721287087844",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "12.9146441",
+        "rewardApr": "0",
+        "total": "12.9146441"
+      },
+      "fee": "0.144716126885064420",
+      "priceMax": "4.967219039",
+      "priceMin": "4.480147018",
+      "volume": "289.430933868939512724"
+    }
+  },
+  {
+    "address": "0xa0b4fef70ccef039b94512d6384806979d4c201c5e12af9a4b0458454b80da35",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 50
+    },
+    "day": {
+      "apr": {
+        "feeApr": "3.7579931",
+        "rewardApr": "8.3724392",
+        "total": "12.1304323"
+      },
+      "fee": "293.044063790462988374",
+      "priceMax": "0.036078065",
+      "priceMin": "0.031959240",
+      "volume": "117217.625174080616237318"
+    },
+    "feeRate": "0.2500",
+    "month": {
+      "apr": {
+        "feeApr": "0.833667500",
+        "rewardApr": "8.2577482",
+        "total": "9.0914157"
+      },
+      "fee": "1977.340395539854911078",
+      "priceMax": "0.038262101",
+      "priceMin": "0.031437080",
+      "volume": "790936.154877975382647074"
+    },
+    "price": "0.033920599",
+    "rewards": [
+      {
+        "dailyRewards": "1445.7831264",
+        "dailyRewardsUsd": "652.8733591595277888",
+        "endTime": "2024-12-18T13:00:00Z",
+        "perSecondRewards": "0.016733601",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "10000"
+      }
+    ],
+    "symbol": "NAVX/vSUI",
+    "tokenA": {
+      "amount": "16010415788042468",
+      "info": {
+        "address": "0xa99b8952d4f7d947ea77fe0ecdcc9e5fc0bcab2841d6e2a5aa00c3044e5544b5::navx::NAVX",
+        "decimals": 9,
+        "logoURI": "https://archive.cetus.zone/assets/image/sui/navx.png",
+        "name": "NAVX Token",
+        "symbol": "NAVX"
+      }
+    },
+    "tokenB": {
+      "amount": "71936871964889",
+      "info": {
+        "address": "0x549e8b69270defbfafd4f94e17ec44cdbdd99820b33bda2278dea3b9a32d3f55::cert::CERT",
+        "decimals": 9,
+        "logoURI": "https://archive.cetus.zone/assets/image/sui/vsui.png",
+        "name": "Volo Staked SUI",
+        "symbol": "vSUI"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "2846228.793792552151859438",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "2.1298765",
+        "rewardApr": "8.349501",
+        "total": "10.4793776"
+      },
+      "fee": "1165.791552880816561724",
+      "priceMax": "0.037387301",
+      "priceMin": "0.031437080",
+      "volume": "466316.619117805859431642"
+    }
+  },
+  {
+    "address": "0xbce4869d39b5247bbd25653a0b8f2143ed08ae963f1e9634abd3ef6b8f487a9e",
+    "config": {
+      "defaultRange": "1week",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 1
+    },
+    "day": {
+      "apr": {
+        "feeApr": "1.5386697",
+        "rewardApr": "7.9331399",
+        "total": "9.4718096"
+      },
+      "fee": "31.65696176445492063",
+      "priceMax": "1.036080489",
+      "priceMin": "1.036037029",
+      "volume": "316569.58509481170441013"
+    },
+    "feeRate": "0.0100",
+    "month": {
+      "apr": {
+        "feeApr": "3.6543496",
+        "rewardApr": "7.8244667",
+        "total": "11.4788164"
+      },
+      "fee": "2286.89136804932207133",
+      "priceMax": "1.069107898",
+      "priceMin": "1.035018109",
+      "volume": "22868913.359595429100653305"
+    },
+    "price": "1.036070083",
+    "rewards": [
+      {
+        "dailyRewards": "361.44576",
+        "dailyRewardsUsd": "163.21833003595392",
+        "endTime": "2024-12-18T13:00:00Z",
+        "perSecondRewards": "0.004183400",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "2500"
+      }
+    ],
+    "symbol": "vSUI/SUI",
+    "tokenA": {
+      "amount": "78178796700279",
+      "info": {
+        "address": "0x549e8b69270defbfafd4f94e17ec44cdbdd99820b33bda2278dea3b9a32d3f55::cert::CERT",
+        "decimals": 9,
+        "logoURI": "https://archive.cetus.zone/assets/image/sui/vsui.png",
+        "name": "Volo Staked SUI",
+        "symbol": "vSUI"
+      }
+    },
+    "tokenB": {
+      "amount": "86002119330612",
+      "info": {
+        "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "SUI",
+        "symbol": "SUI"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "750959.78555732937195471",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "15.6229204",
+        "rewardApr": "7.9114052",
+        "total": "23.5343257"
+      },
+      "fee": "2256.189418617273550665",
+      "priceMax": "1.03631702",
+      "priceMin": "1.035421074",
+      "volume": "22561893.93692597147643199"
+    }
+  },
+  {
+    "address": "0xac3f2181f453b68e540d3d7d1bf548fe3fc4f4164c4cdae7838c186c737be2f6",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 50
+    },
+    "day": {
+      "apr": {
+        "feeApr": "159.1049957",
+        "rewardApr": "82.193407",
+        "total": "241.2984028"
+      },
+      "fee": "315.948110932568539499",
+      "priceMax": "0.037379190",
+      "priceMin": "0.033109425",
+      "volume": "126379.244131402595557509"
+    },
+    "feeRate": "0.2500",
+    "month": {
+      "apr": {
+        "feeApr": "23.0249345",
+        "rewardApr": "81.06747",
+        "total": "104.0924045"
+      },
+      "fee": "1390.727265769343366462",
+      "priceMax": "0.039665869",
+      "priceMin": "0.032532818",
+      "volume": "556290.904261932996777413"
+    },
+    "price": "0.035130104",
+    "rewards": [
+      {
+        "dailyRewards": "361.44576",
+        "dailyRewardsUsd": "163.21833003595392",
+        "endTime": "2024-12-18T13:00:00Z",
+        "perSecondRewards": "0.004183400",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "2500"
+      }
+    ],
+    "symbol": "NAVX/SUI",
+    "tokenA": {
+      "amount": "302112667375459",
+      "info": {
+        "address": "0xa99b8952d4f7d947ea77fe0ecdcc9e5fc0bcab2841d6e2a5aa00c3044e5544b5::navx::NAVX",
+        "decimals": 9,
+        "logoURI": "https://archive.cetus.zone/assets/image/sui/navx.png",
+        "name": "NAVX Token",
+        "symbol": "NAVX"
+      }
+    },
+    "tokenB": {
+      "amount": "5580952200824",
+      "info": {
+        "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "SUI",
+        "symbol": "SUI"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "72481.105925895601824414",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "79.3772721",
+        "rewardApr": "81.9682196",
+        "total": "161.3454918"
+      },
+      "fee": "1106.413936724867097076",
+      "priceMax": "0.038747742",
+      "priceMin": "0.032532818",
+      "volume": "442565.573359282234426721"
+    }
+  },
+  {
+    "address": "0x2ebbd7cdc2e12ec3dfadcdfff2e874a60525cf021aeadfa0b3d2dfcb8bc75d06",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 200
+    },
+    "day": {
+      "apr": {
+        "feeApr": "33.3113991",
+        "rewardApr": "81.5836969",
+        "total": "114.8950961"
+      },
+      "fee": "66.64359607386410395",
+      "priceMax": "0.000000064",
+      "priceMin": "0.000000055",
+      "volume": "6664.35959403295775184"
+    },
+    "feeRate": "1",
+    "month": {
+      "apr": {
+        "feeApr": "75.8072098",
+        "rewardApr": "80.466112",
+        "total": "156.2733219"
+      },
+      "fee": "4613.04487512013138138",
+      "priceMax": "0.000000381",
+      "priceMin": "0.000000057",
+      "volume": "461304.487131922251545325"
+    },
+    "price": "0.000000057",
+    "rewards": [
+      {
+        "dailyRewards": "361.44576",
+        "dailyRewardsUsd": "163.21833003595392",
+        "endTime": "2024-12-18T13:00:00Z",
+        "perSecondRewards": "0.004183400",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "2500"
+      }
+    ],
+    "symbol": "FUD/SUI",
+    "tokenA": {
+      "amount": "20151837825530736",
+      "info": {
+        "address": "0x76cb819b01abed502bee8a702b4c2d547532c12f25001c9dea795a5e631c26f1::fud::FUD",
+        "decimals": 5,
+        "logoURI": "https://archive.cetus.zone/assets/image/sui/fud.png",
+        "name": "Fud The Pug",
+        "symbol": "FUD"
+      }
+    },
+    "tokenB": {
+      "amount": "4631912199212",
+      "info": {
+        "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "SUI",
+        "symbol": "SUI"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "73022.78846024563997594",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "82.5977384",
+        "rewardApr": "81.36018",
+        "total": "163.9579184"
+      },
+      "fee": "1159.90715088933012578",
+      "priceMax": "0.000000084",
+      "priceMin": "0.000000055",
+      "volume": "115990.71492583515405925"
+    }
+  },
+  {
+    "address": "0x9c4a3323ff690bd2034192508e6481bf58a6075a4eba8c5eae389e9d279015b4",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 40
+    },
+    "day": {
+      "apr": {
+        "feeApr": "112.0273631",
+        "rewardApr": "0",
+        "total": "112.0273631"
+      },
+      "fee": "20.646441219217985032",
+      "priceMax": "4.896788022",
+      "priceMin": "4.476749584",
+      "volume": "10323.159785874111709576"
+    },
+    "feeRate": "0.2000",
+    "month": {
+      "apr": {
+        "feeApr": "132.4814128",
+        "rewardApr": "0",
+        "total": "132.4814128"
+      },
+      "fee": "742.65594108377185676",
+      "priceMax": "5.33001655",
+      "priceMin": "3.196959911",
+      "volume": "371326.41635143949466972"
+    },
+    "price": "4.502417566",
+    "symbol": "sSUI/USDC",
+    "tokenA": {
+      "amount": "364108220287",
+      "info": {
+        "address": "0x83556891f4a0f233ce7b05cfe7f957d4020492a34f5405b2cb9377d060bef4bf::spring_sui::SPRING_SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "sSUI",
+        "symbol": "sSUI"
+      }
+    },
+    "tokenB": {
+      "amount": "5083640294",
+      "info": {
+        "address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "decimals": 6,
+        "logoURI": "https://sigvc4wfhz5h7om4dg4y47mhiwnnzd77gatnd7hmqjadm7lt5ima.arweave.net/kg1RcsU-en-5nBm5jn2HRZrcj_8wJtH87IJANn1z6hg",
+        "name": "USDC",
+        "symbol": "USDC"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "6726.884247732487349672",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "138.9256634",
+        "rewardApr": "0",
+        "total": "138.9256634"
+      },
+      "fee": "179.718626336638975856",
+      "priceMax": "5.33001655",
+      "priceMin": "4.342410206",
+      "volume": "89858.799548222161049144"
+    }
+  },
+  {
+    "address": "0x9915e0ab438364b5d809ba2630013ad9d03160f1d46dcc8c5be0eb654b4c749d",
+    "config": {
+      "defaultRange": "1week",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 1
+    },
+    "day": {
+      "apr": {
+        "feeApr": "1.8085345",
+        "rewardApr": "0",
+        "total": "1.8085345"
+      },
+      "fee": "15.046443943834374",
+      "priceMax": "0.999849250",
+      "priceMin": "0.999579030",
+      "volume": "150462.822779679940584"
+    },
+    "feeRate": "0.0100",
+    "month": {
+      "apr": {
+        "feeApr": "5.0062312",
+        "rewardApr": "0",
+        "total": "5.0062312"
+      },
+      "fee": "1266.862773936823537",
+      "priceMax": "1.024209051",
+      "priceMin": "0.921242929",
+      "volume": "12668565.277903640440723"
+    },
+    "price": "0.999840972",
+    "symbol": "USDCsol/USDC",
+    "tokenA": {
+      "amount": "17291972458",
+      "info": {
+        "address": "0xb231fcda8bbddb31f2ef02e6161444aec64a514e2c89279584ac9806ce9cf037::coin::COIN",
+        "decimals": 6,
+        "logoURI": "https://ln5rjzkrzlcrgctsbxebvz7gjhbngu7eqk5orymuktocmbgwn5oa.arweave.net/W3sU5VHKxRMKcg3IGufmScLTU-SCuujhlFTcJgTWb1w",
+        "name": "USD Coin (Portal from Solana)",
+        "symbol": "USDCsol"
+      }
+    },
+    "tokenB": {
+      "amount": "286347972613",
+      "info": {
+        "address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "decimals": 6,
+        "logoURI": "https://sigvc4wfhz5h7om4dg4y47mhiwnnzd77gatnd7hmqjadm7lt5ima.arweave.net/kg1RcsU-en-5nBm5jn2HRZrcj_8wJtH87IJANn1z6hg",
+        "name": "USDC",
+        "symbol": "USDC"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "303668.619059971141674",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "9.1868943",
+        "rewardApr": "0",
+        "total": "9.1868943"
+      },
+      "fee": "536.494521979258918",
+      "priceMax": "1.019027289",
+      "priceMin": "0.998484136",
+      "volume": "5364919.369240309790298"
+    }
+  },
+  {
+    "address": "0x6595edf6d8c8b6894a5c6760843ae2fde81cb37d8586984dd1345b0f00bfecd8",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 50
+    },
+    "day": {
+      "apr": {
+        "feeApr": "60.1940156",
+        "rewardApr": "32.5658975",
+        "total": "92.7599132"
+      },
+      "fee": "301.688804794651350552",
+      "priceMax": "4.530084241",
+      "priceMin": "4.212425251",
+      "volume": "120675.470530261865431758"
+    },
+    "feeRate": "0.2500",
+    "month": {
+      "apr": {
+        "feeApr": "18.9172624",
+        "rewardApr": "32.1197893",
+        "total": "51.0370518"
+      },
+      "fee": "2883.870700501094833078",
+      "priceMax": "4.91885552",
+      "priceMin": "2.482037886",
+      "volume": "1153547.718310691238502692"
+    },
+    "price": "4.213702371",
+    "rewards": [
+      {
+        "dailyRewards": "361.44576",
+        "dailyRewardsUsd": "163.21833003595392",
+        "endTime": "2024-12-18T13:00:00Z",
+        "perSecondRewards": "0.004183400",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "2500"
+      }
+    ],
+    "symbol": "ALPHA/USDC",
+    "tokenA": {
+      "amount": "25770838809949",
+      "info": {
+        "address": "0xfe3afec26c59e874f3c1d60b8203cb3852d2bb2aa415df9548b8d688e6683f93::alpha::ALPHA",
+        "decimals": 9,
+        "logoURI": "https://7taj6jfau6n3dri7agspzfnva7qbj5sizz5xc3lb56nmxpsyoiba.arweave.net/_MCfJKCnm7HFHwGk_JW1B-AU9kjOe3FtYe-ay75YcgI",
+        "name": "ALPHA Token",
+        "symbol": "ALPHA"
+      }
+    },
+    "tokenB": {
+      "amount": "74390170566",
+      "info": {
+        "address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "decimals": 6,
+        "logoURI": "https://sigvc4wfhz5h7om4dg4y47mhiwnnzd77gatnd7hmqjadm7lt5ima.arweave.net/kg1RcsU-en-5nBm5jn2HRZrcj_8wJtH87IJANn1z6hg",
+        "name": "USDC",
+        "symbol": "USDC"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "182935.816063780924521126",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "52.2729674",
+        "rewardApr": "32.4766759",
+        "total": "84.7496434"
+      },
+      "fee": "1838.961147414322761624",
+      "priceMax": "4.91885552",
+      "priceMin": "3.952307661",
+      "volume": "735584.115173999856538338"
+    }
+  },
+  {
+    "address": "0xa82678602bf3a28dfab7a6df83167a00884c2996a884aaf3ef9e5bb0d096ff58",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 200
+    },
+    "day": {
+      "apr": {
+        "feeApr": "384.0683793",
+        "rewardApr": "0",
+        "total": "384.0683793"
+      },
+      "fee": "92.163403096697957945",
+      "priceMax": "0.000000027",
+      "priceMin": "0.000000022",
+      "volume": "9216.34028411170074267"
+    },
+    "feeRate": "1",
+    "month": {
+      "apr": {
+        "feeApr": "84.7932094",
+        "rewardApr": "0",
+        "total": "84.7932094"
+      },
+      "fee": "618.90307689972078673",
+      "priceMax": "0.000000050",
+      "priceMin": "0.000000017",
+      "volume": "61890.307351115101321095"
+    },
+    "price": "0.000000023",
+    "symbol": "BLUB/SUI",
+    "tokenA": {
+      "amount": "5648561732091",
+      "info": {
+        "address": "0xfa7ac3951fdca92c5200d468d31a365eb03b2be9936fde615e69f0c1274ad3a0::BLUB::BLUB",
+        "decimals": 2,
+        "logoURI": "https://453ilwcfza3uzupxtaell2f2acwezft7jynjduuc3skuehtu76pq.arweave.net/53aF2EXIN0zR95gItei6AKxMln9OGpHSgtyVQh50_58",
+        "name": "BLUB",
+        "symbol": "BLUB"
+      }
+    },
+    "tokenB": {
+      "amount": "603697194247",
+      "info": {
+        "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "SUI",
+        "symbol": "SUI"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "8758.763788657067395765",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "246.7009123",
+        "rewardApr": "0",
+        "total": "246.7009123"
+      },
+      "fee": "415.53750332827028508",
+      "priceMax": "0.000000040",
+      "priceMin": "0.000000017",
+      "volume": "41553.75013979607678191"
+    }
+  },
+  {
+    "address": "0xe71aa89df60e737f1b687f8dfbd51e2a9b35706e9e5540ce9b053bd53fcb9ec3",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 100
+    },
+    "day": {
+      "apr": {
+        "feeApr": "66.6463128",
+        "rewardApr": "0",
+        "total": "66.6463128"
+      },
+      "fee": "105.931333837761565775",
+      "priceMax": "23149.377153564",
+      "priceMin": "22165.702818692",
+      "volume": "21177.757183845835709735"
+    },
+    "feeRate": "0.5000",
+    "month": {
+      "apr": {
+        "feeApr": "5.1952653",
+        "rewardApr": "0",
+        "total": "5.1952653"
+      },
+      "fee": "251.169943561747020225",
+      "priceMax": "27960.196376316",
+      "priceMin": "20525.88008147",
+      "volume": "50164.90401194129293964"
+    },
+    "price": "23121.0415645",
+    "symbol": "WBTC/SUI",
+    "tokenA": {
+      "amount": "8012440",
+      "info": {
+        "address": "0x027792d9fed7f9844eb4839566001bb6f6cb4804f66aa2da6fe1ee242d896881::coin::COIN",
+        "decimals": 8,
+        "logoURI": "",
+        "name": "WBTC",
+        "symbol": "WBTC"
+      }
+    },
+    "tokenB": {
+      "amount": "11064715530155",
+      "info": {
+        "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "SUI",
+        "symbol": "SUI"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "58015.117745154741304225",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "19.0921044",
+        "rewardApr": "0",
+        "total": "19.0921044"
+      },
+      "fee": "213.005901216605339215",
+      "priceMax": "23963.213755141",
+      "priceMin": "20525.88008147",
+      "volume": "42562.81133491884352407"
+    }
+  },
+  {
+    "address": "0xea5c4878a39da54b82164acc0e29f9a9be2ebf114300e216620bc7a1b8c4b970",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 100
+    },
+    "day": {
+      "apr": {
+        "feeApr": "",
+        "rewardApr": "",
+        "total": ""
+      },
+      "fee": "0",
+      "priceMax": "1086956521.739130449",
+      "priceMin": "1086956521.739130449",
+      "volume": "0"
+    },
+    "feeRate": "0.2500",
+    "month": {
+      "apr": {
+        "feeApr": "",
+        "rewardApr": "",
+        "total": ""
+      },
+      "fee": "0",
+      "priceMax": "1086956521.739130449",
+      "priceMin": "1086956521.739130449",
+      "volume": "0"
+    },
+    "price": "1086956521.739130449",
+    "symbol": "SUI/Peppa",
+    "tokenA": {
+      "amount": "12500000",
+      "info": {
+        "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "SUI",
+        "symbol": "SUI"
+      }
+    },
+    "tokenB": {
+      "amount": "13587061008574422",
+      "info": {
+        "address": "0xb783fd4f862ecff6b4a61027c79c0a05e9ad4d7c5ce625a372d9674d7b9732bc::peppa::PEPPA",
+        "decimals": 9,
+        "logoURI": "https://pump-fun-7k-dev.nysm.work/api/file-upload/f094e00bd3af9ef278be2ea6374209cfblob",
+        "name": "Peppa",
+        "symbol": "Peppa"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "0",
+    "verified": false,
+    "week": {
+      "apr": {
+        "feeApr": "",
+        "rewardApr": "",
+        "total": ""
+      },
+      "fee": "0",
+      "priceMax": "1086956521.739130449",
+      "priceMin": "1086956521.739130449",
+      "volume": "0"
+    }
+  },
+  {
+    "address": "0xb30df44907da6e9f3c531563f19e6f4a203d70f26f8a33ad57881cd7781e592d",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 10
+    },
+    "day": {
+      "apr": {
+        "feeApr": "58.2621775",
+        "rewardApr": "99.5745693",
+        "total": "157.8367468"
+      },
+      "fee": "757.89304445876484565",
+      "priceMax": "4.857697522",
+      "priceMin": "4.449450133",
+      "volume": "1515782.560778567729134135"
+    },
+    "feeRate": "0.0500",
+    "month": {
+      "apr": {
+        "feeApr": "26.3881356",
+        "rewardApr": "98.2105341",
+        "total": "124.5986698"
+      },
+      "fee": "10440.98653529115471225",
+      "priceMax": "4.941874592",
+      "priceMin": "3.001300578",
+      "volume": "20881918.141599317960306945"
+    },
+    "price": "4.5048002",
+    "rewards": [
+      {
+        "dailyRewards": "142.8574752",
+        "dailyRewardsUsd": "642.424493818579824",
+        "endTime": "2024-12-30T00:00:00Z",
+        "perSecondRewards": "0.001653443",
+        "token": {
+          "address": "0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "SUI",
+          "symbol": "SUI"
+        },
+        "totalReward": "4000"
+      },
+      {
+        "dailyRewards": "1445.7831264",
+        "dailyRewardsUsd": "652.8733591595277888",
+        "endTime": "2024-12-18T13:00:00Z",
+        "perSecondRewards": "0.016733601",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "10000"
+      }
+    ],
+    "symbol": "SUI/AUSD",
+    "tokenA": {
+      "amount": "37655300854987",
+      "info": {
+        "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "SUI",
+        "symbol": "SUI"
+      }
+    },
+    "tokenB": {
+      "amount": "305891180031",
+      "info": {
+        "address": "0x2053d08c1e2bd02791056171aab0fd12bd7cd7efad2ab8f6b9c8902f14df2ff2::ausd::AUSD",
+        "decimals": 6,
+        "logoURI": "https://qele7wvrqjkzonp2egfsagymxbgrewy7adtywuxng4tmpdaycfxa.arweave.net/gRZP2rGCVZc1-iGLIBsMuE0SWx8A54tS7Tcmx4wYEW4",
+        "name": "AUSD",
+        "symbol": "AUSD"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "474803.676796643971250065",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "36.2041532",
+        "rewardApr": "99.3017622",
+        "total": "135.5059155"
+      },
+      "fee": "3305.74328543453094109",
+      "priceMax": "4.941874592",
+      "priceMin": "4.35258458",
+      "volume": "6611464.706507647970180365"
+    }
+  },
+  {
+    "address": "0xc3488df5dd4867b7ec32d135f8471fc06b898da67fcfb68128e2a9915e8c1af5",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 100
+    },
+    "day": {
+      "apr": {
+        "feeApr": "",
+        "rewardApr": "",
+        "total": ""
+      },
+      "fee": "0",
+      "priceMax": "1086956521.739130449",
+      "priceMin": "1086956521.739130449",
+      "volume": "0"
+    },
+    "feeRate": "0.2500",
+    "month": {
+      "apr": {
+        "feeApr": "",
+        "rewardApr": "",
+        "total": ""
+      },
+      "fee": "0",
+      "priceMax": "1086956521.739130449",
+      "priceMin": "1086956521.739130449",
+      "volume": "0"
+    },
+    "price": "1086956521.739130449",
+    "symbol": "SUI/TMPL",
+    "tokenA": {
+      "amount": "12500000",
+      "info": {
+        "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "SUI",
+        "symbol": "SUI"
+      }
+    },
+    "tokenB": {
+      "amount": "13587061008574422",
+      "info": {
+        "address": "0x4d216c8d9c3a82c8238a0a94062324a6d42e0e88f3900dd4004b7ce412631ce4::template::TEMPLATE",
+        "decimals": 9,
+        "logoURI": "ipfs://abcdefgh",
+        "name": "TMPL",
+        "symbol": "TMPL"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "0",
+    "verified": false,
+    "week": {
+      "apr": {
+        "feeApr": "",
+        "rewardApr": "",
+        "total": ""
+      },
+      "fee": "0",
+      "priceMax": "1086956521.739130449",
+      "priceMin": "1086956521.739130449",
+      "volume": "0"
+    }
+  },
+  {
+    "address": "0xe63329f43a9474d421be85ff270bafc04667b811d215d4d4ee2512bcf2713896",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 10
+    },
+    "day": {
+      "apr": {
+        "feeApr": "69.7060384",
+        "rewardApr": "109.7238541",
+        "total": "179.4298926"
+      },
+      "fee": "694.056316005718792234",
+      "priceMax": "4.865427185",
+      "priceMin": "4.460278349",
+      "volume": "1388112.623411630035953651"
+    },
+    "feeRate": "0.0500",
+    "month": {
+      "apr": {
+        "feeApr": "20.1961435",
+        "rewardApr": "108.2207876",
+        "total": "128.4169312"
+      },
+      "fee": "6116.519663746437656258",
+      "priceMax": "4.951419822",
+      "priceMin": "2.703810121",
+      "volume": "12233039.218966409868333796"
+    },
+    "price": "4.50596269",
+    "rewards": [
+      {
+        "dailyRewards": "2419.3548288",
+        "dailyRewardsUsd": "1092.5098552024989696",
+        "endTime": "2024-12-18T13:00:00Z",
+        "perSecondRewards": "0.028001792",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "12500"
+      }
+    ],
+    "symbol": "SUI/BUCK",
+    "tokenA": {
+      "amount": "39530504864320",
+      "info": {
+        "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "SUI",
+        "symbol": "SUI"
+      }
+    },
+    "tokenB": {
+      "amount": "185965788902297",
+      "info": {
+        "address": "0xce7ff77a83ea0cb6fd39bd8748e2ec89a3f41e8efdc3f4eb123e0ca37b184db2::buck::BUCK",
+        "decimals": 9,
+        "logoURI": "https://archive.cetus.zone/assets/image/sui/buck.png",
+        "name": "Bucket USD",
+        "symbol": "BUCK"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "363426.986887983926702632",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "78.6083489",
+        "rewardApr": "109.4232408",
+        "total": "188.0315898"
+      },
+      "fee": "5493.922193308782623963",
+      "priceMax": "4.951419822",
+      "priceMin": "4.357713325",
+      "volume": "10987844.327154669771592327"
+    }
+  },
+  {
+    "address": "0xb8a66987fa26b7ed673266a30c5a5e705898b56315e0aaa914bfadb6e8726f09",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 40
+    },
+    "day": {
+      "apr": {
+        "feeApr": "50.6374901",
+        "rewardApr": "0",
+        "total": "50.6374901"
+      },
+      "fee": "1.423874834283448965",
+      "priceMax": "4.832692881",
+      "priceMin": "4.464279007",
+      "volume": "711.909540008662489255"
+    },
+    "feeRate": "0.2000",
+    "month": {
+      "apr": {
+        "feeApr": "2452.2378158",
+        "rewardApr": "0",
+        "total": "2452.2378158"
+      },
+      "fee": "2097.364179214695149175",
+      "priceMax": "4.948605964",
+      "priceMin": "2.991540979",
+      "volume": "1048679.811065203558708795"
+    },
+    "price": "4.49387108",
+    "symbol": "SUI/AUSD",
+    "tokenA": {
+      "amount": "82667649144",
+      "info": {
+        "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "SUI",
+        "symbol": "SUI"
+      }
+    },
+    "tokenB": {
+      "amount": "655493902",
+      "info": {
+        "address": "0x2053d08c1e2bd02791056171aab0fd12bd7cd7efad2ab8f6b9c8902f14df2ff2::ausd::AUSD",
+        "decimals": 6,
+        "logoURI": "https://qele7wvrqjkzonp2egfsagymxbgrewy7adtywuxng4tmpdaycfxa.arweave.net/gRZP2rGCVZc1-iGLIBsMuE0SWx8A54tS7Tcmx4wYEW4",
+        "name": "AUSD",
+        "symbol": "AUSD"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "1026.34295858901869428",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "128.2951152",
+        "rewardApr": "0",
+        "total": "128.2951152"
+      },
+      "fee": "25.322074641003259045",
+      "priceMax": "4.948605964",
+      "priceMin": "3.718936943",
+      "volume": "12660.809975991116093085"
+    }
+  },
+  {
+    "address": "0x881639630836b703aa3e04898f8a3740584859838d986619d0ee0f63a784c078",
+    "config": {
+      "defaultRange": "1week",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 1
+    },
+    "day": {
+      "apr": {
+        "feeApr": "4.0510867",
+        "rewardApr": "4.5933944016",
+        "total": "8.6444811938"
+      },
+      "fee": "143.948366555136748",
+      "priceMax": "1.005555788",
+      "priceMin": "0.998010875",
+      "volume": "1439466.60240178948647"
+    },
+    "feeRate": "0.0100",
+    "month": {
+      "apr": {
+        "feeApr": "2.0154905",
+        "rewardApr": "4.5304711906",
+        "total": "6.5459617625"
+      },
+      "fee": "2178.349612020854536",
+      "priceMax": "1.005555788",
+      "priceMin": "0.939551394",
+      "volume": "21783219.163120280798746"
+    },
+    "price": "0.998417471",
+    "rewards": [
+      {
+        "dailyRewards": "361.44576",
+        "dailyRewardsUsd": "163.21833003595392",
+        "endTime": "2024-12-18T13:00:00Z",
+        "perSecondRewards": "0.004183400",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "2500"
+      }
+    ],
+    "symbol": "AUSD/USDC",
+    "tokenA": {
+      "amount": "1190836387790",
+      "info": {
+        "address": "0x2053d08c1e2bd02791056171aab0fd12bd7cd7efad2ab8f6b9c8902f14df2ff2::ausd::AUSD",
+        "decimals": 6,
+        "logoURI": "https://qele7wvrqjkzonp2egfsagymxbgrewy7adtywuxng4tmpdaycfxa.arweave.net/gRZP2rGCVZc1-iGLIBsMuE0SWx8A54tS7Tcmx4wYEW4",
+        "name": "AUSD",
+        "symbol": "AUSD"
+      }
+    },
+    "tokenB": {
+      "amount": "107758094992",
+      "info": {
+        "address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "decimals": 6,
+        "logoURI": "https://sigvc4wfhz5h7om4dg4y47mhiwnnzd77gatnd7hmqjadm7lt5ima.arweave.net/kg1RcsU-en-5nBm5jn2HRZrcj_8wJtH87IJANn1z6hg",
+        "name": "USDC",
+        "symbol": "USDC"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "1296964.407013770335764",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "3.4311668",
+        "rewardApr": "4.5808097594",
+        "total": "8.0119766252"
+      },
+      "fee": "855.78871143712771",
+      "priceMax": "1.005555788",
+      "priceMin": "0.939551394",
+      "volume": "8557749.79684246636707"
+    }
+  },
+  {
+    "address": "0x9f70edecd4af60ca9ce5544530cc5596a7d3a93d6a8c5207241f206e73384797",
+    "config": {
+      "defaultRange": "1week",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 1
+    },
+    "day": {
+      "apr": {
+        "feeApr": "18.072266",
+        "rewardApr": "0",
+        "total": "18.072266"
+      },
+      "fee": "92.814089714938372216",
+      "priceMax": "0.999985363",
+      "priceMin": "0.998345068",
+      "volume": "928136.91698537980639076"
+    },
+    "feeRate": "0.0100",
+    "month": {
+      "apr": {
+        "feeApr": "2.3201681",
+        "rewardApr": "0",
+        "total": "2.3201681"
+      },
+      "fee": "362.43687320568084396",
+      "priceMax": "1.036897422",
+      "priceMin": "0.997219205",
+      "volume": "3624356.760344543932369112"
+    },
+    "price": "0.998390038",
+    "symbol": "BUCK/USDC",
+    "tokenA": {
+      "amount": "141558178752744",
+      "info": {
+        "address": "0xce7ff77a83ea0cb6fd39bd8748e2ec89a3f41e8efdc3f4eb123e0ca37b184db2::buck::BUCK",
+        "decimals": 9,
+        "logoURI": "https://archive.cetus.zone/assets/image/sui/buck.png",
+        "name": "Bucket USD",
+        "symbol": "BUCK"
+      }
+    },
+    "tokenB": {
+      "amount": "46123130215",
+      "info": {
+        "address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "decimals": 6,
+        "logoURI": "https://sigvc4wfhz5h7om4dg4y47mhiwnnzd77gatnd7hmqjadm7lt5ima.arweave.net/kg1RcsU-en-5nBm5jn2HRZrcj_8wJtH87IJANn1z6hg",
+        "name": "USDC",
+        "symbol": "USDC"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "187453.763301424038104864",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "10.0528405",
+        "rewardApr": "0",
+        "total": "10.0528405"
+      },
+      "fee": "362.392843938756643312",
+      "priceMax": "1.004150575",
+      "priceMin": "0.997543827",
+      "volume": "3623909.5733170874499278"
+    }
+  },
+  {
+    "address": "0xa63347f0a3d79e36c629866d72d148403907088cca219d80bdd5461d79d34d46",
+    "config": {
+      "defaultRange": "1week",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 1
+    },
+    "day": {
+      "apr": {
+        "feeApr": "0.449899000",
+        "rewardApr": "0",
+        "total": "0.449899000"
+      },
+      "fee": "0.311890361872718171",
+      "priceMax": "1.04336369",
+      "priceMin": "1.042531012",
+      "volume": "3118.900349326724675759"
+    },
+    "feeRate": "0.0100",
+    "month": {
+      "apr": {
+        "feeApr": "1.1610792",
+        "rewardApr": "0",
+        "total": "1.1610792"
+      },
+      "fee": "24.482760824177752283",
+      "priceMax": "1.082854426",
+      "priceMin": "1.008267219",
+      "volume": "245192.36425871181043593"
+    },
+    "price": "1.043296253",
+    "symbol": "haSUI/SUI",
+    "tokenA": {
+      "amount": "2589502095805",
+      "info": {
+        "address": "0xbde4ba4c2e274a60ce15c1cfff9e5c42e41654ac8b6d906a57efa4bd3c29f47d::hasui::HASUI",
+        "decimals": 9,
+        "logoURI": "https://archive.cetus.zone/assets/image/sui/hasui.png",
+        "name": "haSUI",
+        "symbol": "haSUI"
+      }
+    },
+    "tokenB": {
+      "amount": "2928428987181",
+      "info": {
+        "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "SUI",
+        "symbol": "SUI"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "25303.45254156901114745",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "0.545094800",
+        "rewardApr": "0",
+        "total": "0.545094800"
+      },
+      "fee": "2.652458128585562663",
+      "priceMax": "1.047442076",
+      "priceMin": "1.041998264",
+      "volume": "26524.562892304208511149"
+    }
+  },
+  {
+    "address": "0x1b06371d74082856a1be71760cf49f6a377d050eb57afd017f203e89b09c89a2",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 40
+    },
+    "day": {
+      "apr": {
+        "feeApr": "426.8249025",
+        "rewardApr": "222.308787",
+        "total": "649.1336896"
+      },
+      "fee": "6509.06389695899506571",
+      "priceMax": "0.026489576",
+      "priceMin": "0.023615432",
+      "volume": "3254531.88827094926530792"
+    },
+    "feeRate": "0.2000",
+    "month": {
+      "apr": {
+        "feeApr": "65.7195361",
+        "rewardApr": "219.2634612",
+        "total": "284.9829974"
+      },
+      "fee": "30484.20638140001530229",
+      "priceMax": "0.026489576",
+      "priceMin": "0.014524735",
+      "volume": "15243482.757184839872082385"
+    },
+    "price": "0.023680972",
+    "rewards": [
+      {
+        "dailyRewards": "7507.5739488",
+        "dailyRewardsUsd": "3390.2007386794860096",
+        "endTime": "2024-12-18T13:00:00Z",
+        "perSecondRewards": "0.086893217",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "50000"
+      }
+    ],
+    "symbol": "DEEP/SUI",
+    "tokenA": {
+      "amount": "2753965392446",
+      "info": {
+        "address": "0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP",
+        "decimals": 6,
+        "logoURI": "https://oyflsj63aqulztiwsfy3cg4oly6m34pyw2uirqpbfz2rllr6dzoa.arweave.net/dgq5J9sEKLzNFpFxsRuOXjzN8fi2qIjB4S51Fa4-Hlw",
+        "name": "DEEP",
+        "symbol": "DEEP"
+      }
+    },
+    "tokenB": {
+      "amount": "58460760590916",
+      "info": {
+        "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "SUI",
+        "symbol": "SUI"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "556623.64313016337319142",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "238.3673067",
+        "rewardApr": "221.6997219",
+        "total": "460.0670286"
+      },
+      "fee": "25515.55359654235953777",
+      "priceMax": "0.026489576",
+      "priceMin": "0.018047857",
+      "volume": "12757776.51084492543051935"
+    }
+  },
+  {
+    "address": "0xfe36ddc436cefc95d320ad1ecb088f8156d306f5b00f7b8626148dfe349b9984",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 40
+    },
+    "day": {
+      "apr": {
+        "feeApr": "9.7499822",
+        "rewardApr": "0",
+        "total": "9.7499822"
+      },
+      "fee": "7.1302908871914874",
+      "priceMax": "4014.879619089",
+      "priceMin": "3835.37642875",
+      "volume": "3564.38333427487396536"
+    },
+    "feeRate": "0.2000",
+    "month": {
+      "apr": {
+        "feeApr": "20.2305549",
+        "rewardApr": "0",
+        "total": "20.2305549"
+      },
+      "fee": "450.01069743653199572",
+      "priceMax": "4085.660985151",
+      "priceMin": "3042.671158504",
+      "volume": "233130.07064122761273794"
+    },
+    "price": "3835.37642875",
+    "symbol": "ETH/USDC",
+    "tokenA": {
+      "amount": "117270932",
+      "info": {
+        "address": "0xd0e89b2af5e4910726fbcd8b8dd37bb79b29e5f83f7491bca830e94f7f226d29::eth::ETH",
+        "decimals": 8,
+        "logoURI": "",
+        "name": "ETH",
+        "symbol": "ETH"
+      }
+    },
+    "tokenB": {
+      "amount": "22200998823",
+      "info": {
+        "address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "decimals": 6,
+        "logoURI": "https://sigvc4wfhz5h7om4dg4y47mhiwnnzd77gatnd7hmqjadm7lt5ima.arweave.net/kg1RcsU-en-5nBm5jn2HRZrcj_8wJtH87IJANn1z6hg",
+        "name": "USDC",
+        "symbol": "USDC"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "26692.93241345344575544",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "9.0950968",
+        "rewardApr": "0",
+        "total": "9.0950968"
+      },
+      "fee": "46.68746263276334404",
+      "priceMax": "4085.660985151",
+      "priceMin": "3808.512324832",
+      "volume": "23339.40137702287293498"
+    }
+  },
+  {
+    "address": "0x38282481e3a024c50254c31ebfc4710e003fe1b219c0aa31482a860bd58c4ab0",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 40
+    },
+    "day": {
+      "apr": {
+        "feeApr": "57.4419657",
+        "rewardApr": "86.54951167",
+        "total": "143.9914774"
+      },
+      "fee": "534.695828314537112",
+      "priceMax": "108922.323323071",
+      "priceMin": "102579.420092654",
+      "volume": "267287.259345804401604"
+    },
+    "feeRate": "0.2000",
+    "month": {
+      "apr": {
+        "feeApr": "46.6185058",
+        "rewardApr": "85.36390193",
+        "total": "131.9824078"
+      },
+      "fee": "13199.195785908032804",
+      "priceMax": "115085.122240214",
+      "priceMin": "90908.778703096",
+      "volume": "6625972.740198989818152"
+    },
+    "price": "103341.350338941",
+    "rewards": [
+      {
+        "dailyRewards": "142.8573024",
+        "dailyRewardsUsd": "642.423716743719888",
+        "endTime": "2024-12-30T00:00:00Z",
+        "perSecondRewards": "0.001653441",
+        "token": {
+          "address": "0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "SUI",
+          "symbol": "SUI"
+        },
+        "totalReward": "8000"
+      },
+      {
+        "dailyRewards": "361.44576",
+        "dailyRewardsUsd": "163.21833003595392",
+        "endTime": "2024-12-18T13:00:00Z",
+        "perSecondRewards": "0.004183400",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "2500"
+      }
+    ],
+    "symbol": "WBTC/USDC",
+    "tokenA": {
+      "amount": "116975193",
+      "info": {
+        "address": "0x027792d9fed7f9844eb4839566001bb6f6cb4804f66aa2da6fe1ee242d896881::coin::COIN",
+        "decimals": 8,
+        "logoURI": "",
+        "name": "WBTC",
+        "symbol": "WBTC"
+      }
+    },
+    "tokenB": {
+      "amount": "219179945463",
+      "info": {
+        "address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "decimals": 6,
+        "logoURI": "https://sigvc4wfhz5h7om4dg4y47mhiwnnzd77gatnd7hmqjadm7lt5ima.arweave.net/kg1RcsU-en-5nBm5jn2HRZrcj_8wJtH87IJANn1z6hg",
+        "name": "USDC",
+        "symbol": "USDC"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "339758.528230809935916",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "44.1754992",
+        "rewardApr": "86.31238973",
+        "total": "130.48788897"
+      },
+      "fee": "2886.346655305084328",
+      "priceMax": "115085.122240214",
+      "priceMin": "99326.646843974",
+      "volume": "1442861.458428694332912"
+    }
+  },
+  {
+    "address": "0xa701a909673dbc597e63b4586ace6643c02ac0e118382a78b9a21262a4a2e35d",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 20
+    },
+    "day": {
+      "apr": {
+        "feeApr": "84.3522926",
+        "rewardApr": "75.7160178",
+        "total": "160.0683104"
+      },
+      "fee": "363.67048163263138025",
+      "priceMax": "4.861833502",
+      "priceMin": "4.454140934",
+      "volume": "363669.94983187904803469"
+    },
+    "feeRate": "0.1000",
+    "month": {
+      "apr": {
+        "feeApr": "60.1646086",
+        "rewardApr": "74.6788121",
+        "total": "134.8434207"
+      },
+      "fee": "7889.76150088625944593",
+      "priceMax": "4.939916475",
+      "priceMin": "2.98144663",
+      "volume": "7907774.607998085050467115"
+    },
+    "price": "4.495976408",
+    "rewards": [
+      {
+        "dailyRewards": "722.89152",
+        "dailyRewardsUsd": "326.43666007190784",
+        "endTime": "2024-12-18T13:00:00Z",
+        "perSecondRewards": "0.008366800",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "5000"
+      }
+    ],
+    "symbol": "SUI/USDC",
+    "tokenA": {
+      "amount": "17613315264821",
+      "info": {
+        "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "SUI",
+        "symbol": "SUI"
+      }
+    },
+    "tokenB": {
+      "amount": "78148070879",
+      "info": {
+        "address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "decimals": 6,
+        "logoURI": "https://sigvc4wfhz5h7om4dg4y47mhiwnnzd77gatnd7hmqjadm7lt5ima.arweave.net/kg1RcsU-en-5nBm5jn2HRZrcj_8wJtH87IJANn1z6hg",
+        "name": "USDC",
+        "symbol": "USDC"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "157363.506850077101084895",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "58.8720099",
+        "rewardApr": "75.5085766",
+        "total": "134.3805866"
+      },
+      "fee": "1781.597296372169725655",
+      "priceMax": "4.939916475",
+      "priceMin": "4.345152607",
+      "volume": "1781593.44272931623786079"
+    }
+  },
+  {
+    "address": "0x0c89fd0320b406311c05f1ed8c4656b4ab7ed14999a992cc6c878c2fad405140",
+    "config": {
+      "defaultRange": "1week",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 1
+    },
+    "day": {
+      "apr": {
+        "feeApr": "12.6186481",
+        "rewardApr": "32.0445636612",
+        "total": "44.663211813"
+      },
+      "fee": "64.27282644299574",
+      "priceMax": "1.0000649",
+      "priceMin": "1.000008679",
+      "volume": "642719.440670636534972"
+    },
+    "feeRate": "0.0100",
+    "month": {
+      "apr": {
+        "feeApr": "5.6281658",
+        "rewardApr": "31.6055970358",
+        "total": "37.2337628482"
+      },
+      "fee": "871.952987339822244",
+      "priceMax": "1.002863725",
+      "priceMin": "0.975217729",
+      "volume": "8731968.724656421720932"
+    },
+    "price": "1.000033157",
+    "rewards": [
+      {
+        "dailyRewards": "361.44576",
+        "dailyRewardsUsd": "163.21833003595392",
+        "endTime": "2024-12-18T13:00:00Z",
+        "perSecondRewards": "0.004183400",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "2500"
+      }
+    ],
+    "symbol": "wUSDC/USDC",
+    "tokenA": {
+      "amount": "89927056157",
+      "info": {
+        "address": "0x5d4b302506645c37ff133b98c4b50a5ae14841659738d6d733d59d0d217a93bf::coin::COIN",
+        "decimals": 6,
+        "logoURI": "https://klrhtty4kphjcsrez2eaeh6r27tbaayw3odjadigbrek544f3i2a.arweave.net/UuJ5zxxTzpFKJM6IAh_R1-YQAxbbhpANBgxIrvOF2jQ",
+        "name": "wUSDC",
+        "symbol": "wUSDC"
+      }
+    },
+    "tokenB": {
+      "amount": "95973840559",
+      "info": {
+        "address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "decimals": 6,
+        "logoURI": "https://sigvc4wfhz5h7om4dg4y47mhiwnnzd77gatnd7hmqjadm7lt5ima.arweave.net/kg1RcsU-en-5nBm5jn2HRZrcj_8wJtH87IJANn1z6hg",
+        "name": "USDC",
+        "symbol": "USDC"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "185912.003960515574188",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "11.822806",
+        "rewardApr": "31.9567703361",
+        "total": "43.779576424"
+      },
+      "fee": "422.69261004275008",
+      "priceMax": "1.000833765",
+      "priceMin": "0.998901872",
+      "volume": "4226863.888995982797196"
+    }
+  },
+  {
+    "address": "0x0321b68a0fca8c990710d26986ba433d06b351deba9384017cd6175f20466a8f",
+    "config": {
+      "defaultRange": "1week",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 1
+    },
+    "day": {
+      "apr": {
+        "feeApr": "0.542137500",
+        "rewardApr": "30.8247212079",
+        "total": "31.3668587778"
+      },
+      "fee": "398.953321304200596",
+      "priceMax": "0.999853053",
+      "priceMin": "0.999842049",
+      "volume": "3989524.042851721185262"
+    },
+    "feeRate": "0.0100",
+    "month": {
+      "apr": {
+        "feeApr": "0.570772200",
+        "rewardApr": "30.402464753",
+        "total": "30.9732369904"
+      },
+      "fee": "12775.768666650333944",
+      "priceMax": "1.00170919",
+      "priceMin": "0.998635189",
+      "volume": "127874973.05306753719221"
+    },
+    "price": "0.999852342",
+    "rewards": [
+      {
+        "dailyRewards": "520.9262496",
+        "dailyRewardsUsd": "2342.585025722834352",
+        "endTime": "2024-12-23T00:00:00Z",
+        "perSecondRewards": "0.006029239",
+        "token": {
+          "address": "0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "SUI",
+          "symbol": "SUI"
+        },
+        "totalReward": "11184.5"
+      },
+      {
+        "dailyRewards": "45044.9960544",
+        "dailyRewardsUsd": "20341.0022916724803648",
+        "endTime": "2024-12-18T13:00:00Z",
+        "perSecondRewards": "0.521354121",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "300000"
+      }
+    ],
+    "symbol": "USDT/USDC",
+    "tokenA": {
+      "amount": "13010397957196",
+      "info": {
+        "address": "0xc060006111016b8a020ad5b33834984a437aaa7d3c74c18e09a95d48aceab08c::coin::COIN",
+        "decimals": 6,
+        "logoURI": "https://kbjqugvqmnqhcwzoc4cxd5d57apkgpvn24nc5q4e6kvdmtlku6la.arweave.net/UFMKGrBjYHFbLhcFcfR9-B6jPq3XGi7DhPKqNk1qp5Y",
+        "name": "USDT",
+        "symbol": "USDT"
+      }
+    },
+    "tokenB": {
+      "amount": "13850792064613",
+      "info": {
+        "address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "decimals": 6,
+        "logoURI": "https://sigvc4wfhz5h7om4dg4y47mhiwnnzd77gatnd7hmqjadm7lt5ima.arweave.net/kg1RcsU-en-5nBm5jn2HRZrcj_8wJtH87IJANn1z6hg",
+        "name": "USDC",
+        "symbol": "USDC"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "26859965.139638633412332",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "1.5428852",
+        "rewardApr": "30.7402699169",
+        "total": "32.28315521"
+      },
+      "fee": "7969.58561284892565",
+      "priceMax": "0.999955858",
+      "priceMin": "0.999842049",
+      "volume": "79695771.254121779707856"
+    }
+  },
+  {
+    "address": "0x3b585786b13af1d8ea067ab37101b6513a05d2f90cfe60e8b1d9e1b46a63c4fa",
+    "config": {
+      "defaultRange": "100bp",
+      "defaultRangePoint": [
+        "100bp",
+        "500bp",
+        "1000bp",
+        "1week"
+      ],
+      "tickSpacing": 40
+    },
+    "day": {
+      "apr": {
+        "feeApr": "150.0708046",
+        "rewardApr": "76.0472178",
+        "total": "226.1180225"
+      },
+      "fee": "40680.777464257974226425",
+      "priceMax": "4.854529722",
+      "priceMin": "4.45975786",
+      "volume": "20340388.44245971540329841"
+    },
+    "feeRate": "0.2000",
+    "month": {
+      "apr": {
+        "feeApr": "86.7026583",
+        "rewardApr": "75.0054751",
+        "total": "161.7081334"
+      },
+      "fee": "714886.44871756136976326",
+      "priceMax": "4.934394863",
+      "priceMin": "2.971575579",
+      "volume": "358070714.78905984217499179"
+    },
+    "price": "4.492047446",
+    "rewards": [
+      {
+        "dailyRewards": "1170.2595744",
+        "dailyRewardsUsd": "5262.611660102100528",
+        "endTime": "2024-12-30T00:00:00Z",
+        "perSecondRewards": "0.013544671",
+        "token": {
+          "address": "0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "SUI",
+          "symbol": "SUI"
+        },
+        "totalReward": "31352"
+      },
+      {
+        "dailyRewards": "33997.0148352",
+        "dailyRewardsUsd": "15352.0572149162717184",
+        "endTime": "2025-01-01T13:00:00Z",
+        "perSecondRewards": "0.393483968",
+        "token": {
+          "address": "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca::blue::BLUE",
+          "decimals": 9,
+          "logoURI": "",
+          "name": "BLUE",
+          "symbol": "BLUE"
+        },
+        "totalReward": "1000000"
+      }
+    ],
+    "symbol": "SUI/USDC",
+    "tokenA": {
+      "amount": "1211770580056814",
+      "info": {
+        "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+        "decimals": 9,
+        "logoURI": "",
+        "name": "SUI",
+        "symbol": "SUI"
+      }
+    },
+    "tokenB": {
+      "amount": "4444519348169",
+      "info": {
+        "address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "decimals": 6,
+        "logoURI": "https://sigvc4wfhz5h7om4dg4y47mhiwnnzd77gatnd7hmqjadm7lt5ima.arweave.net/kg1RcsU-en-5nBm5jn2HRZrcj_8wJtH87IJANn1z6hg",
+        "name": "USDC",
+        "symbol": "USDC"
+      }
+    },
+    "totalApr": "0",
+    "tvl": "9894318.75468621973667793",
+    "verified": true,
+    "week": {
+      "apr": {
+        "feeApr": "119.687656",
+        "rewardApr": "75.8388693",
+        "total": "195.5265253"
+      },
+      "fee": "227736.11917094324257582",
+      "priceMax": "4.934394863",
+      "priceMin": "4.360675148",
+      "volume": "113868057.40543290547117353"
+    }
+  }
+]
