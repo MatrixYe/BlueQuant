@@ -231,7 +231,7 @@ export class Strategy {
             return false;
         }
         const curSqrtPrice = new BN(pool.current_sqrt_price);
-        let coinAmountBN = new BN(toBigNumberStr(balanceB * 0.8, this.decimalsB));
+        let coinAmountBN = new BN(toBigNumberStr(balanceB * 0.9, this.decimalsB));
         let roundUp = true
         let slippage = 0.05
         const isCoinA = false;
