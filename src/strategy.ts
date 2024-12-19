@@ -218,6 +218,7 @@ export class Strategy {
     }
 
     async toAddLiquidity(lowerTick: number, upperTick: number) {
+        await new Promise(resolve => setTimeout(resolve, 1)); // 等待10秒
         const result = await this.getAssert();
         if (result === null) {
             logger.error("获取资金信息异常 => Not ADD Liquidity");
