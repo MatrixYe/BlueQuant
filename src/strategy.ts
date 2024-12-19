@@ -224,14 +224,16 @@ export class Strategy {
             return false;
         }
         const [balanceA, balanceB, balanceSUI] = result as number[];
-        logger.info(`开仓前钱包资产: ${this.nameA}: ${balanceA} | ${this.nameA}: ${balanceB} SUI: ${balanceSUI}`);
+        logger.info(`开仓前钱包资产: ${this.nameA}: ${balanceA} | ${this.nameA}: ${balanceB} | SUI: ${balanceSUI}`);
         const pool = await this.getPool(this.poolId)
         if (!pool) {
             logger.info(`获取Pool异常 => Not ADD Liquidity`);
             return false;
         }
+
         const curSqrtPrice = new BN(pool.current_sqrt_price);
         let coinAmountBN = new BN(toBigNumberStr(balanceB * 0.9, this.decimalsB));
+        logger.info(`开仓使用资金 ${coinAmountBN.toNumber()}${this.nameB}`)
         let roundUp = true
         let slippage = 0.05
         const isCoinA = false;
