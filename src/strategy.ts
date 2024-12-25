@@ -125,7 +125,7 @@ export class Strategy {
         logger.info(`coinB:  ${nameB} decimalsB: ${this.decimalsB}`);
         logger.info(`tick_spacing ${this.tick_spacing}`);
         logger.info(`G ${this.G}`);
-        if (this.G === null) {
+        if (isNaN(this.G)) {
             throw Error(`错误的启动参数G,必须为大于等于0的正整数`);
         }
         const result = await this.getAssert()
