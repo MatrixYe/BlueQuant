@@ -1,4 +1,4 @@
-// noinspection PointlessBooleanExpressionJS
+// noinspection PointlessBooleanExpressionJS,PointlessArithmeticExpressionJS
 
 /**
  * 文件名: strategy.ts
@@ -144,7 +144,7 @@ export class Strategy {
     // 计算偏移量
     calG() {
         if (this.lastBreak == BreakType.Unknown) {
-            const g1 = 1 + this.G;
+            const g1 = 0 + this.G;
             const g2 = 1 + this.G;
             logger.info(`lastBreak:Unknown BaseX:${this.G} g1:${g1} g2:${g2}`)
             return [g1, g2]
@@ -164,7 +164,7 @@ export class Strategy {
             return [g1, g2]
         }
         logger.warn(`lastBreak is None!! default g1,g2`)
-        return [1, 1]
+        return [0, 1]
     }
 
 
