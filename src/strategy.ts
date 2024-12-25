@@ -146,7 +146,7 @@ export class Strategy {
         if (this.lastBreak == BreakType.Unknown) {
             const g1 = 0 + this.G;
             const g2 = 1 + this.G;
-            logger.info(`lastBreak:Unknown BaseX:${this.G} g1:${g1} g2:${g2}`)
+            logger.info(`lastBreak:Unknown BaseG:${this.G} g1:${g1} g2:${g2}`)
             return [g1, g2]
         }
         if (this.lastBreak == BreakType.Up) {
