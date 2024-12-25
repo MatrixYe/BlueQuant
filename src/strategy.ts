@@ -124,6 +124,8 @@ export class Strategy {
         logger.info(`coinA: ${nameA} decimalsA: ${this.decimalsA}`);
         logger.info(`coinB:  ${nameB} decimalsB: ${this.decimalsB}`);
         logger.info(`tick_spacing ${this.tick_spacing}`);
+        logger.info(`G ${this.G}`);
+
         const result = await this.getAssert()
         if (result === null) {
             throw Error(`获取资金信息失败`)
