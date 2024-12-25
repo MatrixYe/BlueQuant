@@ -19,7 +19,9 @@ async function main() {
 
     const poolId = process.env.POOL_ID as string;
 
-    const st = new Strategy(endpoint, private_key, poolId);
+    const g = process.env.G as string
+
+    const st = new Strategy(endpoint, private_key, poolId, Number(g));
     await st.run();
 
 

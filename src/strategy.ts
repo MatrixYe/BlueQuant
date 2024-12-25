@@ -18,6 +18,12 @@ import {COIN_SUI, DECIMALS_SUI} from "./constant";
 import {Pool} from "@firefly-exchange/library-sui/dist/src/spot/types";
 import {OnChainCallResponse} from "@firefly-exchange/library-sui/dist/src/types";
 
+enum BreakType {
+    Unknown,
+    Up,
+    Down,
+}
+
 // 策略
 export class Strategy {
     client: SuiClient
@@ -32,10 +38,14 @@ export class Strategy {
     private tick_spacing: number = 60;
     private nameA: string = "unknowns";
     private nameB: string = "unknowns";
+    private lastBreak = BreakType.Unknown
+    private readonly G: number = 0;
 
-    constructor(endpoint: string, privateKey: string, poolId: string) {
+
+    constructor(endpoint: string, privateKey: string, poolId: string, g: number) {
         this.poolId = poolId;
         this.client = new SuiClient({url: endpoint});
+        this.G = g
         logger.info(` privateKey: ${privateKey}`);
         if (privateKey.startsWith("suiprivkey")) {
             this.keyPair = Ed25519Keypair.fromSecretKey(privateKey);
@@ -86,26 +96,9 @@ export class Strategy {
     async getUserPositions(userAddress: string) {
         let qc = new QueryChain(this.client);
         return await qc.getUserPositions(mainnet.BasePackage, userAddress).catch(e => {
+            logger.error(e);
             return null;
         });
-    }
-
-
-    // 关闭仓位
-    /// Parameters:
-/// - privateKey        : The private key of the user making the blockchain call
-/// - posID             : The position ID of the position that is being closed
-
-    async closePosition(privateKey: string, posID: string) {
-        const keyPair = Ed25519Keypair.fromSecretKey(Buffer.from(privateKey, 'hex'));
-
-        let oc = new OnChainCalls(this.client, mainnet, {signer: keyPair});
-        let qc = new QueryChain(this.client);
-
-        let pos = await qc.getPositionDetails(posID);
-        let pool = await qc.getPool(pos.pool_id);
-        let resp = await oc.closePosition(pool, posID);
-        return resp
     }
 
 
@@ -131,7 +124,6 @@ export class Strategy {
         logger.info(`coinA: ${nameA} decimalsA: ${this.decimalsA}`);
         logger.info(`coinB:  ${nameB} decimalsB: ${this.decimalsB}`);
         logger.info(`tick_spacing ${this.tick_spacing}`);
-
         const result = await this.getAssert()
         if (result === null) {
             throw Error(`获取资金信息失败`)
@@ -145,8 +137,30 @@ export class Strategy {
         }
     }
 
-    async calG() {
-        return [1, 2]
+    // 计算偏移量
+    calG() {
+        if (this.lastBreak == BreakType.Unknown) {
+            const g1 = 1 + this.G;
+            const g2 = 1 + this.G;
+            logger.info(`lastBreak:Unknown BaseX:${this.G} g1:${g1} g2:${g2}`)
+            return [g1, g2]
+        }
+        if (this.lastBreak == BreakType.Up) {
+            const g1 = 1 + this.G;
+            const g2 = 1 + this.G;
+            logger.info(`lastBreak:Up BaseX:${this.G} g1:${g1} g2:${g2}`)
+
+            return [g1, g2]
+        }
+        if (this.lastBreak == BreakType.Down) {
+            // noinspection PointlessArithmeticExpressionJS
+            const g1 = 0 + this.G;
+            const g2 = 2 + this.G;
+            logger.info(`lastBreak:Down BaseX:${this.G} g1:${g1} g2:${g2}`)
+            return [g1, g2]
+        }
+        logger.warn(`lastBreak is None!! default g1,g2`)
+        return [1, 1]
     }
 
 
@@ -173,12 +187,16 @@ export class Strategy {
 
     // 开仓
     async toOpenPos(pool: Pool) {
-        // 计算开仓
+        // 获取当前价格位置
         const currentTick = pool.current_tick;
         const currentSqrtPrice = pool.current_sqrt_price;
-        const [lowerTick, upperTick] = calTickIndex(currentTick, 1, 2)
-        // ClmmPoolUtil
-        logger.info(`currentTick:${currentTick} lowerTick:${lowerTick} upperTick:${upperTick}`);
+        // 计算偏移量
+        let [g1, g2] = this.calG();
+        // 计算目标开仓区间
+        const tickSpacing = pool.ticks_manager.tick_spacing
+        const [lowerTick, upperTick] = calTickIndex(currentTick, tickSpacing, g1, g2)
+        logger.info(`tickSpacing:${tickSpacing} currentTick:${currentTick} lowerTick:${lowerTick} upperTick:${upperTick}`);
+        // 换算价格区间
         const currentPrice = TickMath.tickIndexToPrice(currentTick, this.decimalsA, this.decimalsB).toNumber();
         const lowerTickPrice = TickMath.tickIndexToPrice(lowerTick, this.decimalsA, this.decimalsB).toNumber();
         const upperTickPrice = TickMath.tickIndexToPrice(upperTick, this.decimalsA, this.decimalsB).toNumber();
@@ -211,14 +229,14 @@ export class Strategy {
             }
         } else {
             logger.info(`无需Swap => 直接开仓`);
-            //todo 无需swap，字节开仓
+            // 无需swap，直接开仓
             const addOk = await this.toAddLiquidity(lowerTick, upperTick)
             logger.info(`Add Liquidity ${addOk}`)
         }
     }
 
     async toAddLiquidity(lowerTick: number, upperTick: number) {
-        await new Promise(resolve => setTimeout(resolve, 1000)); // 等待0.5~1秒
+        await new Promise(resolve => setTimeout(resolve, 1000)); // 等待0.5~1秒，必须，防止资产数据延迟获取
         const result = await this.getAssert();
         if (result === null) {
             logger.error("获取资金信息异常 => Not ADD Liquidity");
@@ -348,7 +366,7 @@ export class Strategy {
     // 检测仓位
     async checkPos(pos: IPosition, pool: Pool) {
         const current_tick = pool.current_tick;
-        let currentSqrtPrice = pool.current_sqrt_price;
+        // let currentSqrtPrice = pool.current_sqrt_price;
 
         let lowerTick = pos.lower_tick;
         let upperTick = pos.upper_tick;
@@ -361,14 +379,23 @@ export class Strategy {
 
         if (current_tick < lowerTick) {
             logger.info(`当前Tick: ${current_tick} => 突破下区间:${lowerTick} => 平仓`);
+
             const closeOK = await this.toClosePos(pool, posID);
             logger.info(`关闭仓位: ${closeOK ? "成功" : "失败"}`);
 
+            this.lastBreak = BreakType.Down
+            logger.info(`设置突破标志位: ${this.lastBreak}`);
             return;
         }
         if (current_tick > upperTick) {
             logger.info(`当前Tick: ${current_tick} => 突破上区间:${upperTick} => 平仓`);
-            await this.toClosePos(pool, posID);
+
+            const closeOK = await this.toClosePos(pool, posID);
+            logger.info(`关闭仓位: ${closeOK ? "成功" : "失败"}`);
+
+            this.lastBreak = BreakType.Up
+            logger.info(`设置突破标志位: ${this.lastBreak}`);
+
             return;
         }
 
@@ -420,8 +447,7 @@ export class Strategy {
     async run() {
         console.log("run this Strategy");
         await this.initSys();
-        // await this.core(); // 等待 fetchData 完成
-
+        // noinspection InfiniteLoopJS
         while (true) { // 无限循环
             await this.core(); // 等待 fetchData 完成
             await new Promise(resolve => setTimeout(resolve, 10000)); // 等待10秒
