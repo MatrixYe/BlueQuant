@@ -35,7 +35,7 @@ async function main() {
     }
 
     if (!g) {
-        throw Error(`获取资金信息失败`);
+        throw Error(`g is Nan`);
     }
 
 
