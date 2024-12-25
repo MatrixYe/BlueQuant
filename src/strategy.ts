@@ -46,7 +46,7 @@ export class Strategy {
         this.poolId = poolId;
         this.client = new SuiClient({url: endpoint});
         this.G = g
-        logger.info(` privateKey: ${privateKey}`);
+        logger.info(`privateKey: ${privateKey}`);
         if (privateKey.startsWith("suiprivkey")) {
             this.keyPair = Ed25519Keypair.fromSecretKey(privateKey);
         } else {
