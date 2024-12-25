@@ -130,7 +130,7 @@ export class Strategy {
         }
         const result = await this.getAssert()
         if (result === null) {
-            throw Error(`获取资金信息失败`)
+            throw Error(`获取资金信息fail`)
         }
         const [balanceA, balanceB, balanceSUI] = result;
         logger.info(`BalanceA: ${balanceA} ${nameA}`);
@@ -224,11 +224,11 @@ export class Strategy {
             logger.info(`正在配平 => Swap`);
             const swapOK = await this.toSwap(pool, a2b, amount, 0.05)
             if (swapOK) {
-                logger.info(`Swap成功 => 去开仓`);
+                logger.info(`Swap success => 去开仓`);
                 const addOk = await this.toAddLiquidity(lowerTick, upperTick)
-                logger.info(`Add Liquidity ${addOk ? "成功" : "失败"}`)
+                logger.info(`Add Liquidity ${addOk ? "success" : "fail"}`)
             } else {
-                logger.error(`Swap 失败 => 禁止开仓`);
+                logger.error(`Swap fail => 禁止开仓`);
                 return;
             }
         } else {
@@ -362,11 +362,6 @@ export class Strategy {
         return [false, 0];
     }
 
-    private round(value: number, decimals: number): number {
-        const factor = Math.pow(10, decimals);
-        return Math.round(value * factor) / factor;
-    }
-
     // 检测仓位
     async checkPos(pos: IPosition, pool: Pool) {
         const current_tick = pool.current_tick;
@@ -385,7 +380,7 @@ export class Strategy {
             logger.info(`当前Tick: ${current_tick} => 突破下区间:${lowerTick} => 平仓`);
 
             const closeOK = await this.toClosePos(pool, posID);
-            logger.info(`关闭仓位: ${closeOK ? "成功" : "失败"}`);
+            logger.info(`关闭仓位: ${closeOK ? "success" : "fail"}`);
 
             this.lastBreak = BreakType.Down
             logger.info(`设置突破标志位: ${this.lastBreak}`);
@@ -395,7 +390,7 @@ export class Strategy {
             logger.info(`当前Tick: ${current_tick} => 突破上区间:${upperTick} => 平仓`);
 
             const closeOK = await this.toClosePos(pool, posID);
-            logger.info(`关闭仓位: ${closeOK ? "成功" : "失败"}`);
+            logger.info(`关闭仓位: ${closeOK ? "success" : "fail"}`);
 
             this.lastBreak = BreakType.Up
             logger.info(`设置突破标志位: ${this.lastBreak}`);
@@ -423,13 +418,13 @@ export class Strategy {
         // 获取当前仓位
         const poss = await this.getUserPositions(this.walletAddress)
         if (poss === null) {
-            logger.warn(`获取仓位列表失败 => PASS`);
+            logger.warn(`获取仓位列表fail => PASS`);
             return;
         }
         // 获取Pool信息
         const pool = await this.getPool(this.poolId);
         if (pool === null) {
-            logger.warn("获取Pool信息失败 => PASS")
+            logger.warn("获取Pool信息fail => PASS")
             return;
         }
         logger.info(`获取Pool信息: ${this.nameA}/${this.nameB} success`);
@@ -456,5 +451,10 @@ export class Strategy {
             await this.core(); // 等待 fetchData 完成
             await new Promise(resolve => setTimeout(resolve, 10000)); // 等待10秒
         }
+    }
+
+    private round(value: number, decimals: number): number {
+        const factor = Math.pow(10, decimals);
+        return Math.round(value * factor) / factor;
     }
 }

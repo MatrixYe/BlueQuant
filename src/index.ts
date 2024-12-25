@@ -1,3 +1,5 @@
+// noinspection JSIgnoredPromiseFromCall
+
 /**
  * 文件名: index.ts
  * 创建时间: 2024/12/17 18:11
@@ -37,11 +39,8 @@ async function main() {
     if (!g) {
         throw Error(`g is Nan`);
     }
-
-
     const st = new Strategy(endpoint, private_key, poolId, Number(g));
     await st.run();
-
 
 }
 

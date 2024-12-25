@@ -34,7 +34,7 @@ export function coinTypeToName(coinType: string): string {
 
 }
 
-export function calTickIndex(currentIndex: number,tickSpacing:number, g1: number, g2: number) {
+export function calTickIndex(currentIndex: number, tickSpacing: number, g1: number, g2: number) {
     const lowerIndex = (Math.floor(currentIndex / tickSpacing) - g1) * tickSpacing;
     const upperIndex = (Math.floor(currentIndex / tickSpacing) + g2) * tickSpacing;
     return [lowerIndex, upperIndex]
