@@ -364,6 +364,10 @@ export class Strategy {
 
     // 检测仓位
     async checkPos(pos: IPosition, pool: Pool) {
+        if (pos.pool_id != pool.id) {
+            logger.warn(`发现非策略目标Pool:${pos.pool_id} => PASS`)
+            return
+        }
         const current_tick = pool.current_tick;
         // let currentSqrtPrice = pool.current_sqrt_price;
 
