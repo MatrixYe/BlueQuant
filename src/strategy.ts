@@ -18,6 +18,9 @@ import {COIN_SUI, DECIMALS_SUI} from "./constant";
 import {Pool} from "@firefly-exchange/library-sui/dist/src/spot/types";
 import {OnChainCallResponse} from "@firefly-exchange/library-sui/dist/src/types";
 
+/**
+ * 突破类型
+ */
 enum BreakType {
     Unknown,
     Up,
@@ -65,6 +68,9 @@ export class Strategy {
         });
     }
 
+    /***
+     * 获取用户资产信息，限定本池中的A和B
+     */
     async getAssert(): Promise<number[] | null> {
         let amountA: number = 0.0;
         let amountB: number = 0.0;
@@ -92,7 +98,10 @@ export class Strategy {
 
     }
 
-    // 获取用户仓位列表
+    /**
+     * 获取用户仓位信息
+     * @param userAddress 钱包地址
+     */
     async getUserPositions(userAddress: string) {
         let qc = new QueryChain(this.client);
         return await qc.getUserPositions(mainnet.BasePackage, userAddress).catch(e => {
@@ -171,6 +180,12 @@ export class Strategy {
     }
 
 
+    /**
+     * 计算开仓需要的A和B的数量对比
+     * @param lowerTick 目标区间下
+     * @param upperTick 目标区间上
+     * @param current_sqrt_price 当前sqr价格
+     */
     calXY(lowerTick: number, upperTick: number, current_sqrt_price: string) {
         const coinAmountBN = new BN(toBigNumberStr(1000, this.decimalsA));
         const fix_amount_a = true
@@ -427,6 +442,11 @@ export class Strategy {
 
     }
 
+    /**
+     * 关闭指定仓位
+     * @param pool 池信息
+     * @param posID 仓位ID
+     */
     async toClosePos(pool: Pool, posID: string) {
         try {
             let oc = new OnChainCalls(this.client, mainnet, {signer: this.keyPair});
@@ -488,6 +508,7 @@ export class Strategy {
         }
     }
 
+    // 小数位处理
     private round(value: number, decimals: number): number {
         const factor = Math.pow(10, decimals);
         return Math.round(value * factor) / factor;
