@@ -420,11 +420,12 @@ export class Strategy {
 
     async core() {
         // 获取当前仓位
-        const poss = await this.getUserPositions(this.walletAddress)
-        if (poss === null) {
+        const positions = await this.getUserPositions(this.walletAddress)
+        if (positions === null) {
             logger.warn(`获取仓位列表fail => PASS`);
             return;
         }
+        const poss: IPosition[] = positions.filter(position => position.pool_id === this.poolId);
         // 获取Pool信息
         const pool = await this.getPool(this.poolId);
         if (pool === null) {
@@ -439,6 +440,7 @@ export class Strategy {
             await this.toOpenPos(pool);
             return;
         }
+
 
         // 检测当前仓位
         for (const pos of poss) {
