@@ -101,8 +101,9 @@ export class Strategy {
         });
     }
 
-
-    // 系统初始化
+    /***
+     * 系统初始化
+     */
     async initSys() {
         const pool = await this.getPool(this.poolId)
         if (!pool) {
@@ -141,7 +142,9 @@ export class Strategy {
         }
     }
 
-    // 计算偏移量
+    /***
+     * 计算偏移量
+     */
     calG() {
         if (this.lastBreak == BreakType.Unknown) {
             const g1 = 0 + this.G;
@@ -189,7 +192,10 @@ export class Strategy {
         return [x, y]
     }
 
-    // 开仓
+    /***
+     * 开仓逻辑
+     * @param pool 池子信息
+     */
     async toOpenPos(pool: Pool) {
         // 获取当前价格位置
         const currentTick = pool.current_tick;
@@ -239,6 +245,11 @@ export class Strategy {
         }
     }
 
+    /***
+     * 添加流动性仓位
+     * @param lowerTick 仓位区间 Lower
+     * @param upperTick 仓位区间 Upper
+     */
     async toAddLiquidity(lowerTick: number, upperTick: number) {
         await new Promise(resolve => setTimeout(resolve, 1000)); // 等待0.5~1秒，必须，防止资产数据延迟获取
         const result = await this.getAssert();
@@ -281,6 +292,13 @@ export class Strategy {
         }
     }
 
+    /**
+     * 进行Token Swap操作
+     * @param poolState 池子信息
+     * @param a2b swap方向，a2b:true：A==>B ,a2b:false：B==>A
+     * @param amount 转移数量,固定为输入数量
+     * @param slippage 滑点，(0~1)
+     */
     async toSwap(poolState: Pool, a2b: boolean, amount: number, slippage = 0.05) {
         try {
             let iSwapParams: ISwapParams = {
@@ -362,7 +380,11 @@ export class Strategy {
         return [false, 0];
     }
 
-    // 检测仓位
+    /***
+     * 检测仓位
+     * @param pos 仓位信息
+     * @param pool 池子信息
+     */
     async checkPos(pos: IPosition, pool: Pool) {
         if (pos.pool_id != pool.id) {
             logger.warn(`发现非策略目标Pool:${pos.pool_id} => PASS`)
@@ -379,7 +401,7 @@ export class Strategy {
             logger.info(`当前Tick: ${current_tick} => 处于区间:[${lowerTick},${upperTick}] => 保留`);
             return;
         }
-
+        //突破
         if (current_tick < lowerTick) {
             logger.info(`当前Tick: ${current_tick} => 突破下区间:${lowerTick} => 平仓`);
 
@@ -390,6 +412,7 @@ export class Strategy {
             logger.info(`设置突破标志位: ${this.lastBreak}`);
             return;
         }
+        // 突破
         if (current_tick > upperTick) {
             logger.info(`当前Tick: ${current_tick} => 突破上区间:${upperTick} => 平仓`);
 
@@ -418,6 +441,9 @@ export class Strategy {
 
     }
 
+    /**
+     * 核心启动器
+     */
     async core() {
         // 获取当前仓位
         const positions = await this.getUserPositions(this.walletAddress)
@@ -425,6 +451,7 @@ export class Strategy {
             logger.warn(`获取仓位列表fail => PASS`);
             return;
         }
+        // 仓位集合过滤，去除非目标池下的仓位
         const poss: IPosition[] = positions.filter(position => position.pool_id === this.poolId);
         // 获取Pool信息
         const pool = await this.getPool(this.poolId);
@@ -441,14 +468,16 @@ export class Strategy {
             return;
         }
 
-
-        // 检测当前仓位
+        // 仓位检测和平仓
         for (const pos of poss) {
             await this.checkPos(pos, pool)
         }
 
     }
 
+    /**
+     * 间隔运行核心
+     */
     async run() {
         console.log("run this Strategy");
         await this.initSys();
