@@ -163,14 +163,14 @@ export class Strategy {
         }
         if (this.lastBreak == BreakType.Up) {
             const g1 = 1 + this.G;
-            const g2 = 1 + this.G;
+            const g2 = 2 + this.G;
             logger.info(`lastBreak:Up BaseX:${this.G} g1:${g1} g2:${g2}`)
 
             return [g1, g2]
         }
         if (this.lastBreak == BreakType.Down) {
             // noinspection PointlessArithmeticExpressionJS
-            const g1 = 0 + this.G;
+            const g1 = 1 + this.G;
             const g2 = 2 + this.G;
             logger.info(`lastBreak:Down BaseX:${this.G} g1:${g1} g2:${g2}`)
             return [g1, g2]
