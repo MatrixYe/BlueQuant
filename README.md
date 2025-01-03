@@ -53,3 +53,8 @@ npm install && tsc && node dist/index.js
 1、越是简单的东西越稳定
 2、选择Dex和Pool比策略本身更加重要
 3、后续可以考量增加Oracle
+
+## 开源支持
+如果你认为本项目对你有所帮助，请提供一部分Sui对作者进行支持。
+1. Sui钱包地址: 0x08df1fce2d12eb4cee60c7e8cc341e65e7121b2419e1ff4025d3c124f83235dd
+2. 更多问题请在[Discord](https://discord.com/)上请联系作者 `matrix.ye`
