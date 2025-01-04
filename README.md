@@ -19,8 +19,8 @@ PRIVATE_KEY="你的私钥"
 # Sui节点URL，替换成你的，这里仅测试
 ENDPPOINT="https://fullnode.mainnet.sui.io:443"
 
-# 目标交易POLL地址，这里举例DEEP/BLUE
-POOL_ID="0x4b8271fc4819078e44ee9a0506a824b77464789d57ace355d0562a4776c51840"
+# 目标交易POLL地址，BLUE/SUI仅限举例，具体POOL自己筛选
+POOL_ID="0x1b06371d74082856a1be71760cf49f6a377d050eb57afd017f203e89b09c89a2"
 
 # 默认偏移量,即在计算区间之上再加上G作为最终目标区间，设置为0即可，波动大换成其他正整数
 G=0
