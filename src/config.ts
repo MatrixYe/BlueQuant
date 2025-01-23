@@ -13,7 +13,7 @@ export const mainnet = {
     "UpgradeCap": "0xd5b2d2159a78030e6f07e028eb75236693ed7f2f32fecbdc1edb32d3a2079c0d",
     "Publisher": "0xd9810c5d1ec5d13eac8a70a059cc0087b34d245554d8704903b2492eebb17767",
     "BasePackage": "0x3492c874c1e3b3e2984e8c41b589e642d4d0a5d6459e5a9cfc2d52fd7c89c267",
-    "CurrentPackage": "0x702301e7c6ca527a6f6a83f12c5edf2dcd6ec7a23fb5318ec86d88282eab7057",
+    "CurrentPackage": "0x6c796c3ab3421a68158e0df18e4657b2827b1f8fed5ed4b82dba9c935988711b",
     "Operators": {
         "Admin": "0x37a8d55f29e5b4bdba0cb3fe0ba51a93db8c868fe0de649e1bf36bb42ea7d959"
     },

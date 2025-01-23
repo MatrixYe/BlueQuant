@@ -16,7 +16,7 @@
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "@firefly-exchange/library-sui": "^2.4.12",
+    "@firefly-exchange/library-sui": "^2.4.21",
     "pino": "^9.5.0",
     "pino-pretty": "^13.0.0"
   }
