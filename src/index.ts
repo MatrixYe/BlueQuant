@@ -23,7 +23,7 @@ async function main() {
     logger.info(`ENV: poolId:${poolId}`);
 
     const g = process.env.G as string
-    logger.info(`ENV: g:${g}`);
+    //logger.info(`ENV: g:${g}`);
 
     if (!private_key) {
         throw Error(`private_key Is Nan`);
