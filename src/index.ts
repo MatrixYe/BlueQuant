@@ -14,7 +14,7 @@ config();
 
 async function main() {
     const private_key = process.env.PRIVATE_KEY as string;
-    logger.info(`ENV: private_key:${private_key}`);
+   // logger.info(`ENV: private_key:${private_key}`);
 
     const endpoint = process.env.ENDPPOINT as string;
     logger.info(`ENV: endpoint:${endpoint}`);
